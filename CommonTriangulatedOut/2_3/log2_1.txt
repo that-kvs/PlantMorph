@@ -1,0 +1,2705 @@
+[23:17:08][Info] Loaded OpenGL 4.1 Context [Compatibility] on D3D12 (Intel(R) Iris(R) Xe Graphics)
+[32mRead "/mnt/c/Users/Karanvir Singh/Downloads/surface-maps-via-adaptive-triangulations/data/Assets/DefragmentedMeshes/2.obj"[0m
+[32mRead "/mnt/c/Users/Karanvir Singh/Downloads/surface-maps-via-adaptive-triangulations/data/landmarks/21.pinned"[0m
+[32mRead "/mnt/c/Users/Karanvir Singh/Downloads/surface-maps-via-adaptive-triangulations/data/Assets/DefragmentedMeshes/3.obj"[0m
+[32mRead "/mnt/c/Users/Karanvir Singh/Downloads/surface-maps-via-adaptive-triangulations/data/landmarks/22.pinned"[0m
+[32mWrote "/mnt/c/Users/Karanvir Singh/Downloads/surface-maps-via-adaptive-triangulations/build/output/coarse_to_fine/input_normalized_00.obj"[0m
+[32mWrote "/mnt/c/Users/Karanvir Singh/Downloads/surface-maps-via-adaptive-triangulations/build/output/coarse_to_fine/input_normalized_01.obj"[0m
+[32mRead "/mnt/c/Users/Karanvir Singh/Downloads/surface-maps-via-adaptive-triangulations/build/output/coarse_to_fine/embedding_A.obj"[0m
+[32mRead "/mnt/c/Users/Karanvir Singh/Downloads/surface-maps-via-adaptive-triangulations/build/output/coarse_to_fine/embedding_B.obj"[0m
+[32mBuilding BSP tree[0m
+[32m[37m[TIMER] Building BSP tree took 1.74151s.[0m
+[32mBuilding BSP tree[0m
+[32m[37m[TIMER] Building BSP tree took 2.0835s.[0m
+[35m[DEBUG] 0 1[0m
+[35m[DEBUG] pairs_map_distortion.size() = 1[0m
+[23:17:34][Info] Saved screenshot as /mnt/c/Users/Karanvir Singh/Downloads/surface-maps-via-adaptive-triangulations/build/output/coarse_to_fine/screenshots/00_init_A.png
+[23:17:44][Info] Saved screenshot as /mnt/c/Users/Karanvir Singh/Downloads/surface-maps-via-adaptive-triangulations/build/output/coarse_to_fine/screenshots/00_init_B.png
+[23:17:54][Info] Saved screenshot as /mnt/c/Users/Karanvir Singh/Downloads/surface-maps-via-adaptive-triangulations/build/output/coarse_to_fine/screenshots/00_init_A_wire.png
+[23:18:03][Info] Saved screenshot as /mnt/c/Users/Karanvir Singh/Downloads/surface-maps-via-adaptive-triangulations/build/output/coarse_to_fine/screenshots/00_init_B_wire.png
+[32m#################### Starting Landmark Phase ####################[0m
+[32mStarting iteration: 0[0m
+[35m[DEBUG] splits done[0m
+[35m[DEBUG] collapse done[0m
+[35m[DEBUG] Splits: 0[0m
+[35m[DEBUG] Collapses: 41395[0m
+[35m[DEBUG] Flips: 1674[0m
+[35m[DEBUG] #Vertices: 2801[0m
+[32m[37m[TIMER] timer flip took 0.00539303s.[0m
+[32m[37m[TIMER] timer collapse took 0.540486s.[0m
+[32m[37m[TIMER] timer_split took 0.05676s.[0m
+[35m[DEBUG] landmark_err = 0.623406[0m
+[35m[DEBUG] Energy in iteration eval() 490031[0m
+[32mComputing Newton step via direct solve. n = 11204, nnz_per_row = 13.9914[0m
+[35m[DEBUG] newton decr: 4.1703e+06[0m
+[35m[DEBUG] d.norm() = 56.6298[0m
+[32m[37m[TIMER] Line search took 0.144456s.[0m
+[32m[37m[TIMER] Solve took 0.0513399s.[0m
+[32m[37m[TIMER] Derivatives took 0.0561889s.[0m
+[32m[37m[TIMER] Iteration took 0.28858s.[0m
+[35m[DEBUG] Final energy: 477515[0m
+[32m[37m[TIMER] optimize took 0.311309s.[0m
+[32m[37m[TIMER] remeshing took 0.64278s.[0m
+[32mStarting iteration: 1[0m
+[35m[DEBUG] splits done[0m
+[35m[DEBUG] collapse done[0m
+[35m[DEBUG] Splits: 0[0m
+[35m[DEBUG] Collapses: 2484[0m
+[35m[DEBUG] Flips: 176[0m
+[35m[DEBUG] #Vertices: 317[0m
+[32m[37m[TIMER] timer flip took 0.00215269s.[0m
+[32m[37m[TIMER] timer collapse took 0.0354892s.[0m
+[32m[37m[TIMER] timer_split took 0.0175233s.[0m
+[35m[DEBUG] landmark_err = 0.623265[0m
+[35m[DEBUG] Energy in iteration eval() 441665[0m
+[32mComputing Newton step via direct solve. n = 1268, nnz_per_row = 13.9243[0m
+[35m[DEBUG] newton decr: 1.09129e+06[0m
+[35m[DEBUG] d.norm() = 19.7183[0m
+[32m[37m[TIMER] Line search took 0.0271816s.[0m
+[32m[37m[TIMER] Solve took 0.00312528s.[0m
+[32m[37m[TIMER] Derivatives took 0.00540631s.[0m
+[32m[37m[TIMER] Iteration took 0.0490379s.[0m
+[35m[DEBUG] Final energy: 410122[0m
+[32m[37m[TIMER] optimize took 0.0744398s.[0m
+[32m[37m[TIMER] remeshing took 0.063695s.[0m
+[32mStarting iteration: 2[0m
+[35m[DEBUG] splits done[0m
+[35m[DEBUG] collapse done[0m
+[35m[DEBUG] Splits: 0[0m
+[35m[DEBUG] Collapses: 265[0m
+[35m[DEBUG] Flips: 24[0m
+[35m[DEBUG] #Vertices: 52[0m
+[32m[37m[TIMER] timer flip took 0.00247958s.[0m
+[32m[37m[TIMER] timer collapse took 0.00731171s.[0m
+[32m[37m[TIMER] timer_split took 0.00823849s.[0m
+[35m[DEBUG] landmark_err = 0.621987[0m
+[35m[DEBUG] Energy in iteration eval() 407517[0m
+[32mComputing Newton step via direct solve. n = 208, nnz_per_row = 13.5385[0m
+[35m[DEBUG] newton decr: 744150[0m
+[35m[DEBUG] d.norm() = 11.3102[0m
+[32m[37m[TIMER] Line search took 0.000867956s.[0m
+[32m[37m[TIMER] Solve took 0.00114172s.[0m
+[32m[37m[TIMER] Derivatives took 0.00869144s.[0m
+[32m[37m[TIMER] Iteration took 0.0162609s.[0m
+[35m[DEBUG] Final energy: 318853[0m
+[32m[37m[TIMER] optimize took 0.0174436s.[0m
+[32m[37m[TIMER] remeshing took 0.0252039s.[0m
+[32mStarting iteration: 3[0m
+[35m[DEBUG] splits done[0m
+[35m[DEBUG] collapse done[0m
+[35m[DEBUG] Splits: 0[0m
+[35m[DEBUG] Collapses: 27[0m
+[35m[DEBUG] Flips: 8[0m
+[35m[DEBUG] #Vertices: 25[0m
+[32m[37m[TIMER] timer flip took 0.00616577s.[0m
+[32m[37m[TIMER] timer collapse took 0.00124134s.[0m
+[32m[37m[TIMER] timer_split took 0.00514694s.[0m
+[35m[DEBUG] landmark_err = 0.609406[0m
+[35m[DEBUG] Energy in iteration eval() 318675[0m
+[32mComputing Newton step via direct solve. n = 100, nnz_per_row = 13.04[0m
+[35m[DEBUG] newton decr: 441300[0m
+[35m[DEBUG] d.norm() = 5.7207[0m
+[32m[37m[TIMER] Line search took 0.000584645s.[0m
+[32m[37m[TIMER] Solve took 0.000586557s.[0m
+[32m[37m[TIMER] Derivatives took 0.000881951s.[0m
+[32m[37m[TIMER] Iteration took 0.00279021s.[0m
+[35m[DEBUG] Final energy: 187081[0m
+[32m[37m[TIMER] optimize took 0.00409254s.[0m
+[32m[37m[TIMER] remeshing took 0.0185193s.[0m
+[32mStarting iteration: 4[0m
+[35m[DEBUG] splits done[0m
+[35m[DEBUG] collapse done[0m
+[35m[DEBUG] Splits: 0[0m
+[35m[DEBUG] Collapses: 4[0m
+[35m[DEBUG] Flips: 3[0m
+[35m[DEBUG] #Vertices: 21[0m
+[32m[37m[TIMER] timer flip took 0.00514778s.[0m
+[32m[37m[TIMER] timer collapse took 0.004511s.[0m
+[32m[37m[TIMER] timer_split took 0.0117353s.[0m
+[35m[DEBUG] landmark_err = 0.566154[0m
+[35m[DEBUG] Energy in iteration eval() 187066[0m
+[32mComputing Newton step via direct solve. n = 84, nnz_per_row = 12.8571[0m
+[35m[DEBUG] newton decr: 216197[0m
+[35m[DEBUG] d.norm() = 3.32239[0m
+[32m[37m[TIMER] Line search took 0.0132442s.[0m
+[32m[37m[TIMER] Solve took 0.000804421s.[0m
+[32m[37m[TIMER] Derivatives took 0.000395347s.[0m
+[32m[37m[TIMER] Iteration took 0.0160541s.[0m
+[35m[DEBUG] Final energy: 90806.1[0m
+[32m[37m[TIMER] optimize took 0.0209186s.[0m
+[32m[37m[TIMER] remeshing took 0.0379486s.[0m
+[32mStarting iteration: 5[0m
+[35m[DEBUG] splits done[0m
+[35m[DEBUG] collapse done[0m
+[35m[DEBUG] Splits: 0[0m
+[35m[DEBUG] Collapses: 0[0m
+[35m[DEBUG] Flips: 3[0m
+[35m[DEBUG] #Vertices: 21[0m
+[32m[37m[TIMER] timer flip took 0.00033924s.[0m
+[32m[37m[TIMER] timer collapse took 0.00250834s.[0m
+[32m[37m[TIMER] timer_split took 0.00482141s.[0m
+[35m[DEBUG] landmark_err = 0.511004[0m
+[35m[DEBUG] Energy in iteration eval() 90805.2[0m
+[32mComputing Newton step via direct solve. n = 84, nnz_per_row = 12.8571[0m
+[35m[DEBUG] newton decr: 96450.7[0m
+[35m[DEBUG] d.norm() = 2.24779[0m
+[32m[37m[TIMER] Line search took 0.00155958s.[0m
+[32m[37m[TIMER] Solve took 0.000596439s.[0m
+[32m[37m[TIMER] Derivatives took 0.000447713s.[0m
+[32m[37m[TIMER] Iteration took 0.00400503s.[0m
+[35m[DEBUG] Final energy: 47235.6[0m
+[32m[37m[TIMER] optimize took 0.00527087s.[0m
+[32m[37m[TIMER] remeshing took 0.0174907s.[0m
+[32mStarting iteration: 6[0m
+[35m[DEBUG] splits done[0m
+[35m[DEBUG] collapse done[0m
+[35m[DEBUG] Splits: 0[0m
+[35m[DEBUG] Collapses: 2[0m
+[35m[DEBUG] Flips: 1[0m
+[35m[DEBUG] #Vertices: 19[0m
+[32m[37m[TIMER] timer flip took 0.00453301s.[0m
+[32m[37m[TIMER] timer collapse took 0.00256834s.[0m
+[32m[37m[TIMER] timer_split took 0.00172963s.[0m
+[35m[DEBUG] landmark_err = 0.4538[0m
+[35m[DEBUG] Energy in iteration eval() 47227.3[0m
+[32mComputing Newton step via direct solve. n = 76, nnz_per_row = 12.7368[0m
+[35m[DEBUG] newton decr: 48618.9[0m
+[35m[DEBUG] d.norm() = 1.40677[0m
+[32m[37m[TIMER] Line search took 0.000818078s.[0m
+[32m[37m[TIMER] Solve took 0.000592471s.[0m
+[32m[37m[TIMER] Derivatives took 0.000384347s.[0m
+[32m[37m[TIMER] Iteration took 0.00240541s.[0m
+[35m[DEBUG] Final energy: 44.0223[0m
+[32m[37m[TIMER] optimize took 0.00335402s.[0m
+[32m[37m[TIMER] remeshing took 0.0133181s.[0m
+[32mStarting iteration: 7[0m
+[35m[DEBUG] splits done[0m
+[35m[DEBUG] collapse done[0m
+[35m[DEBUG] Splits: 0[0m
+[35m[DEBUG] Collapses: 0[0m
+[35m[DEBUG] Flips: 1[0m
+[35m[DEBUG] #Vertices: 19[0m
+[32m[37m[TIMER] timer flip took 0.00468098s.[0m
+[32m[37m[TIMER] timer collapse took 0.00261096s.[0m
+[32m[37m[TIMER] timer_split took 0.00337054s.[0m
+[35m[DEBUG] landmark_err = 0.000169694[0m
+[35m[DEBUG] Energy in iteration eval() 43.6887[0m
+[32mComputing Newton step via direct solve. n = 76, nnz_per_row = 12.7368[0m
+[35m[DEBUG] newton decr: 1.94366[0m
+[35m[DEBUG] d.norm() = 0.342069[0m
+[32m[37m[TIMER] Line search took 4.3188e-05s.[0m
+[32m[37m[TIMER] Solve took 0.000444925s.[0m
+[32m[37m[TIMER] Derivatives took 0.000459391s.[0m
+[32m[37m[TIMER] Iteration took 0.00159684s.[0m
+[35m[DEBUG] Final energy: 41.0366[0m
+[32m[37m[TIMER] optimize took 0.00351914s.[0m
+[32m[37m[TIMER] remeshing took 0.0187183s.[0m
+[32mStarting iteration: 8[0m
+[35m[DEBUG] splits done[0m
+[35m[DEBUG] collapse done[0m
+[35m[DEBUG] Splits: 0[0m
+[35m[DEBUG] Collapses: 0[0m
+[35m[DEBUG] Flips: 0[0m
+[35m[DEBUG] #Vertices: 19[0m
+[32m[37m[TIMER] timer flip took 0.00193663s.[0m
+[32m[37m[TIMER] timer collapse took 0.00456941s.[0m
+[32m[37m[TIMER] timer_split took 0.00130766s.[0m
+[35m[DEBUG] landmark_err = 0.000137369[0m
+[35m[DEBUG] Energy in iteration eval() 41.0366[0m
+[32mComputing Newton step via direct solve. n = 76, nnz_per_row = 12.7368[0m
+[35m[DEBUG] newton decr: 1.02669[0m
+[35m[DEBUG] d.norm() = 0.224919[0m
+[32m[37m[TIMER] Line search took 4.9574e-05s.[0m
+[32m[37m[TIMER] Solve took 0.000508867s.[0m
+[32m[37m[TIMER] Derivatives took 0.0062823s.[0m
+[32m[37m[TIMER] Iteration took 0.0078537s.[0m
+[35m[DEBUG] Final energy: 39.6245[0m
+[32m[37m[TIMER] optimize took 0.00912243s.[0m
+[32m[37m[TIMER] remeshing took 0.0184573s.[0m
+[32mStarting iteration: 9[0m
+[35m[DEBUG] splits done[0m
+[35m[DEBUG] collapse done[0m
+[35m[DEBUG] Splits: 0[0m
+[35m[DEBUG] Collapses: 0[0m
+[35m[DEBUG] Flips: 0[0m
+[35m[DEBUG] #Vertices: 19[0m
+[32m[37m[TIMER] timer flip took 0.00481746s.[0m
+[32m[37m[TIMER] timer collapse took 0.00210643s.[0m
+[32m[37m[TIMER] timer_split took 0.00911828s.[0m
+[35m[DEBUG] landmark_err = 0.000133054[0m
+[35m[DEBUG] Energy in iteration eval() 39.6245[0m
+[32mComputing Newton step via direct solve. n = 76, nnz_per_row = 12.7368[0m
+[35m[DEBUG] newton decr: 0.587821[0m
+[35m[DEBUG] d.norm() = 0.189696[0m
+[32m[37m[TIMER] Line search took 4.1303e-05s.[0m
+[32m[37m[TIMER] Solve took 0.000564772s.[0m
+[32m[37m[TIMER] Derivatives took 0.00761662s.[0m
+[32m[37m[TIMER] Iteration took 0.00960034s.[0m
+[35m[DEBUG] Final energy: 38.8091[0m
+[32m[37m[TIMER] optimize took 0.0105279s.[0m
+[32m[37m[TIMER] remeshing took 0.0224746s.[0m
+[32mStarting iteration: 10[0m
+[35m[DEBUG] splits done[0m
+[35m[DEBUG] collapse done[0m
+[35m[DEBUG] Splits: 0[0m
+[35m[DEBUG] Collapses: 0[0m
+[35m[DEBUG] Flips: 0[0m
+[35m[DEBUG] #Vertices: 19[0m
+[32m[37m[TIMER] timer flip took 0.00189422s.[0m
+[32m[37m[TIMER] timer collapse took 0.00212408s.[0m
+[32m[37m[TIMER] timer_split took 0.00482535s.[0m
+[35m[DEBUG] landmark_err = 0.00012453[0m
+[35m[DEBUG] Energy in iteration eval() 38.8091[0m
+[32mComputing Newton step via direct solve. n = 76, nnz_per_row = 12.7368[0m
+[35m[DEBUG] newton decr: 0.331217[0m
+[35m[DEBUG] d.norm() = 0.16533[0m
+[32m[37m[TIMER] Line search took 0.00219779s.[0m
+[32m[37m[TIMER] Solve took 0.000519369s.[0m
+[32m[37m[TIMER] Derivatives took 0.000763755s.[0m
+[32m[37m[TIMER] Iteration took 0.00536956s.[0m
+[35m[DEBUG] Final energy: 38.3292[0m
+[32m[37m[TIMER] optimize took 0.00694695s.[0m
+[32m[37m[TIMER] remeshing took 0.0176374s.[0m
+[32mStarting iteration: 11[0m
+[35m[DEBUG] splits done[0m
+[35m[DEBUG] collapse done[0m
+[35m[DEBUG] Splits: 0[0m
+[35m[DEBUG] Collapses: 0[0m
+[35m[DEBUG] Flips: 0[0m
+[35m[DEBUG] #Vertices: 19[0m
+[32m[37m[TIMER] timer flip took 0.00558313s.[0m
+[32m[37m[TIMER] timer collapse took 0.00721468s.[0m
+[32m[37m[TIMER] timer_split took 0.0053735s.[0m
+[35m[DEBUG] landmark_err = 0.000116036[0m
+[35m[DEBUG] Energy in iteration eval() 38.3292[0m
+[32mComputing Newton step via direct solve. n = 76, nnz_per_row = 12.7368[0m
+[35m[DEBUG] newton decr: 0.189825[0m
+[35m[DEBUG] d.norm() = 0.137557[0m
+[32m[37m[TIMER] Line search took 4.9234e-05s.[0m
+[32m[37m[TIMER] Solve took 0.000450063s.[0m
+[32m[37m[TIMER] Derivatives took 0.000891459s.[0m
+[32m[37m[TIMER] Iteration took 0.00232369s.[0m
+[35m[DEBUG] Final energy: 38.0515[0m
+[32m[37m[TIMER] optimize took 0.00391345s.[0m
+[32m[37m[TIMER] remeshing took 0.0338745s.[0m
+[32mStarting iteration: 12[0m
+[35m[DEBUG] splits done[0m
+[35m[DEBUG] collapse done[0m
+[35m[DEBUG] Splits: 0[0m
+[35m[DEBUG] Collapses: 0[0m
+[35m[DEBUG] Flips: 0[0m
+[35m[DEBUG] #Vertices: 19[0m
+[32m[37m[TIMER] timer flip took 6.0079e-05s.[0m
+[32m[37m[TIMER] timer collapse took 0.000120822s.[0m
+[32m[37m[TIMER] timer_split took 0.000824406s.[0m
+[35m[DEBUG] landmark_err = 0.000110358[0m
+[35m[DEBUG] Energy in iteration eval() 38.0515[0m
+[32mComputing Newton step via direct solve. n = 76, nnz_per_row = 12.7368[0m
+[35m[DEBUG] newton decr: 0.0843042[0m
+[35m[DEBUG] d.norm() = 0.102057[0m
+[32m[37m[TIMER] Line search took 4.0863e-05s.[0m
+[32m[37m[TIMER] Solve took 0.000426552s.[0m
+[32m[37m[TIMER] Derivatives took 0.000317216s.[0m
+[32m[37m[TIMER] Iteration took 0.00136133s.[0m
+[35m[DEBUG] Final energy: 37.9257[0m
+[32m[37m[TIMER] optimize took 0.00214806s.[0m
+[32m[37m[TIMER] remeshing took 0.00261638s.[0m
+[32mStarting iteration: 13[0m
+[35m[DEBUG] splits done[0m
+[35m[DEBUG] collapse done[0m
+[35m[DEBUG] Splits: 0[0m
+[35m[DEBUG] Collapses: 0[0m
+[35m[DEBUG] Flips: 0[0m
+[35m[DEBUG] #Vertices: 19[0m
+[32m[37m[TIMER] timer flip took 1.2399e-05s.[0m
+[32m[37m[TIMER] timer collapse took 3.1605e-05s.[0m
+[32m[37m[TIMER] timer_split took 0.000149271s.[0m
+[35m[DEBUG] landmark_err = 0.000105421[0m
+[35m[DEBUG] Energy in iteration eval() 37.9257[0m
+[32mComputing Newton step via direct solve. n = 76, nnz_per_row = 12.7368[0m
+[35m[DEBUG] newton decr: 0.0302728[0m
+[35m[DEBUG] d.norm() = 0.067449[0m
+[32m[37m[TIMER] Line search took 0.00076761s.[0m
+[32m[37m[TIMER] Solve took 0.000601944s.[0m
+[32m[37m[TIMER] Derivatives took 0.000297043s.[0m
+[32m[37m[TIMER] Iteration took 0.00280954s.[0m
+[35m[DEBUG] Final energy: 37.8789[0m
+[32m[37m[TIMER] optimize took 0.00431941s.[0m
+[32m[37m[TIMER] remeshing took 0.00176989s.[0m
+[32mStarting iteration: 14[0m
+[35m[DEBUG] splits done[0m
+[35m[DEBUG] collapse done[0m
+[35m[DEBUG] Splits: 0[0m
+[35m[DEBUG] Collapses: 0[0m
+[35m[DEBUG] Flips: 0[0m
+[35m[DEBUG] #Vertices: 19[0m
+[32m[37m[TIMER] timer flip took 1.191e-05s.[0m
+[32m[37m[TIMER] timer collapse took 3.5522e-05s.[0m
+[32m[37m[TIMER] timer_split took 0.000155724s.[0m
+[35m[DEBUG] landmark_err = 9.96925e-05[0m
+[32m[45mLandmark error under 0.0001 in iteration 14[0m
+[32m[37m[TIMER] remeshing took 0.00164712s.[0m
+[35m[DEBUG] landmark_error(_map_state) = 9.96925e-05[0m
+[23:18:17][Info] Saved screenshot as /mnt/c/Users/Karanvir Singh/Downloads/surface-maps-via-adaptive-triangulations/build/output/coarse_to_fine/screenshots/01_after_landmark_A.png
+[23:18:24][Info] Saved screenshot as /mnt/c/Users/Karanvir Singh/Downloads/surface-maps-via-adaptive-triangulations/build/output/coarse_to_fine/screenshots/01_after_landmark_B.png
+[23:18:29][Info] Saved screenshot as /mnt/c/Users/Karanvir Singh/Downloads/surface-maps-via-adaptive-triangulations/build/output/coarse_to_fine/screenshots/01_after_landmark_A_wire.png
+[23:18:34][Info] Saved screenshot as /mnt/c/Users/Karanvir Singh/Downloads/surface-maps-via-adaptive-triangulations/build/output/coarse_to_fine/screenshots/01_after_landmark_B_wire.png
+[32m#################### Starting Coarse Phase ####################[0m
+[32mBuilding BSP tree[0m
+[32m[37m[TIMER] Building BSP tree took 0.000186772s.[0m
+[32mBuilding BSP tree[0m
+[32m[37m[TIMER] Building BSP tree took 0.000205689s.[0m
+[32m[37m[TIMER] Initial vertex assignment took 0.120708s.[0m
+[32mStarting iteration: 0[0m
+[35m[DEBUG] splits done[0m
+[35m[DEBUG] collapse done[0m
+[35m[DEBUG] Splits: 18[0m
+[35m[DEBUG] Collapses: 4[0m
+[35m[DEBUG] Flips: 10[0m
+[35m[DEBUG] #Vertices: 33[0m
+[32m[37m[TIMER] timer flip took 0.136697s.[0m
+[32m[37m[TIMER] timer collapse took 0.191063s.[0m
+[32m[37m[TIMER] timer_split took 0.42634s.[0m
+[35m[DEBUG] landmark_err = 9.96925e-05[0m
+[35m[DEBUG] Energy in iteration eval() 837.751[0m
+[32mComputing Newton step via direct solve. n = 132, nnz_per_row = 26.5455[0m
+[35m[DEBUG] newton decr: 221.655[0m
+[35m[DEBUG] d.norm() = 1.60729[0m
+[32m[37m[TIMER] Line search took 0.317395s.[0m
+[32m[37m[TIMER] Solve took 0.000917053s.[0m
+[32m[37m[TIMER] Derivatives took 0.231107s.[0m
+[32m[37m[TIMER] Iteration took 0.649618s.[0m
+[35m[DEBUG] Final energy: 819.447[0m
+[32m[37m[TIMER] optimize took 0.72612s.[0m
+[32m[37m[TIMER] remeshing took 0.789816s.[0m
+[32mStarting iteration: 1[0m
+[35m[DEBUG] splits done[0m
+[35m[DEBUG] collapse done[0m
+[35m[DEBUG] Splits: 19[0m
+[35m[DEBUG] Collapses: 6[0m
+[35m[DEBUG] Flips: 9[0m
+[35m[DEBUG] #Vertices: 46[0m
+[32m[37m[TIMER] timer flip took 0.0903203s.[0m
+[32m[37m[TIMER] timer collapse took 0.301505s.[0m
+[32m[37m[TIMER] timer_split took 0.253099s.[0m
+[35m[DEBUG] landmark_err = 9.96925e-05[0m
+[35m[DEBUG] Energy in iteration eval() 643.225[0m
+[32mComputing Newton step via direct solve. n = 184, nnz_per_row = 26.9565[0m
+[35m[DEBUG] newton decr: 154.162[0m
+[35m[DEBUG] d.norm() = 2.27726[0m
+[32m[37m[TIMER] Line search took 0.286768s.[0m
+[32m[37m[TIMER] Solve took 0.000956771s.[0m
+[32m[37m[TIMER] Derivatives took 0.206923s.[0m
+[32m[37m[TIMER] Iteration took 0.584046s.[0m
+[35m[DEBUG] Final energy: 550.343[0m
+[32m[37m[TIMER] optimize took 0.659775s.[0m
+[32m[37m[TIMER] remeshing took 0.68113s.[0m
+[32mStarting iteration: 2[0m
+[35m[DEBUG] splits done[0m
+[35m[DEBUG] collapse done[0m
+[35m[DEBUG] Splits: 26[0m
+[35m[DEBUG] Collapses: 9[0m
+[35m[DEBUG] Flips: 14[0m
+[35m[DEBUG] #Vertices: 63[0m
+[32m[37m[TIMER] timer flip took 0.0856022s.[0m
+[32m[37m[TIMER] timer collapse took 0.299155s.[0m
+[32m[37m[TIMER] timer_split took 0.226294s.[0m
+[35m[DEBUG] landmark_err = 9.96925e-05[0m
+[35m[DEBUG] Energy in iteration eval() 512.128[0m
+[32mComputing Newton step via direct solve. n = 252, nnz_per_row = 27.2381[0m
+[35m[DEBUG] newton decr: 173.631[0m
+[35m[DEBUG] d.norm() = 3.20318[0m
+[32m[37m[TIMER] Line search took 0.51823s.[0m
+[32m[37m[TIMER] Solve took 0.00193893s.[0m
+[32m[37m[TIMER] Derivatives took 0.219673s.[0m
+[32m[37m[TIMER] Iteration took 0.815936s.[0m
+[35m[DEBUG] Final energy: 492.428[0m
+[32m[37m[TIMER] optimize took 0.885569s.[0m
+[32m[37m[TIMER] remeshing took 0.647356s.[0m
+[32mStarting iteration: 3[0m
+[35m[DEBUG] splits done[0m
+[35m[DEBUG] collapse done[0m
+[35m[DEBUG] Splits: 22[0m
+[35m[DEBUG] Collapses: 10[0m
+[35m[DEBUG] Flips: 13[0m
+[35m[DEBUG] #Vertices: 75[0m
+[32m[37m[TIMER] timer flip took 0.0872379s.[0m
+[32m[37m[TIMER] timer collapse took 0.231369s.[0m
+[32m[37m[TIMER] timer_split took 0.228205s.[0m
+[35m[DEBUG] landmark_err = 9.96925e-05[0m
+[35m[DEBUG] Energy in iteration eval() 480.081[0m
+[32mComputing Newton step via direct solve. n = 300, nnz_per_row = 27.36[0m
+[35m[DEBUG] newton decr: 148.996[0m
+[35m[DEBUG] d.norm() = 2.35352[0m
+[32m[37m[TIMER] Line search took 0.691577s.[0m
+[32m[37m[TIMER] Solve took 0.00173262s.[0m
+[32m[37m[TIMER] Derivatives took 0.247645s.[0m
+[32m[37m[TIMER] Iteration took 1.02621s.[0m
+[35m[DEBUG] Final energy: 469.67[0m
+[32m[37m[TIMER] optimize took 1.10921s.[0m
+[32m[37m[TIMER] remeshing took 0.581969s.[0m
+[32mStarting iteration: 4[0m
+[35m[DEBUG] splits done[0m
+[35m[DEBUG] collapse done[0m
+[35m[DEBUG] Splits: 15[0m
+[35m[DEBUG] Collapses: 11[0m
+[35m[DEBUG] Flips: 13[0m
+[35m[DEBUG] #Vertices: 79[0m
+[32m[37m[TIMER] timer flip took 0.0743417s.[0m
+[32m[37m[TIMER] timer collapse took 0.261044s.[0m
+[32m[37m[TIMER] timer_split took 0.185229s.[0m
+[35m[DEBUG] landmark_err = 9.96925e-05[0m
+[35m[DEBUG] Energy in iteration eval() 461.702[0m
+[32mComputing Newton step via direct solve. n = 316, nnz_per_row = 27.3924[0m
+[35m[DEBUG] newton decr: 136.963[0m
+[35m[DEBUG] d.norm() = 2.56383[0m
+[32m[37m[TIMER] Line search took 0.939278s.[0m
+[32m[37m[TIMER] Solve took 0.0014698s.[0m
+[32m[37m[TIMER] Derivatives took 0.278991s.[0m
+[32m[37m[TIMER] Iteration took 1.31574s.[0m
+[35m[DEBUG] Final energy: 459.778[0m
+[32m[37m[TIMER] optimize took 1.39296s.[0m
+[32m[37m[TIMER] remeshing took 0.556706s.[0m
+[32mStarting iteration: 5[0m
+[35m[DEBUG] splits done[0m
+[35m[DEBUG] collapse done[0m
+[35m[DEBUG] Splits: 9[0m
+[35m[DEBUG] Collapses: 6[0m
+[35m[DEBUG] Flips: 4[0m
+[35m[DEBUG] #Vertices: 82[0m
+[32m[37m[TIMER] timer flip took 0.0512092s.[0m
+[32m[37m[TIMER] timer collapse took 0.213607s.[0m
+[32m[37m[TIMER] timer_split took 0.186836s.[0m
+[35m[DEBUG] landmark_err = 9.96925e-05[0m
+[35m[DEBUG] Energy in iteration eval() 456.136[0m
+[32mComputing Newton step via direct solve. n = 328, nnz_per_row = 27.4146[0m
+[35m[DEBUG] newton decr: 117.593[0m
+[35m[DEBUG] d.norm() = 2.45399[0m
+[32m[37m[TIMER] Line search took 0.564668s.[0m
+[32m[37m[TIMER] Solve took 0.0019703s.[0m
+[32m[37m[TIMER] Derivatives took 0.276221s.[0m
+[32m[37m[TIMER] Iteration took 0.94502s.[0m
+[35m[DEBUG] Final energy: 432.231[0m
+[32m[37m[TIMER] optimize took 1.026s.[0m
+[32m[37m[TIMER] remeshing took 0.489868s.[0m
+[32mStarting iteration: 6[0m
+[35m[DEBUG] splits done[0m
+[35m[DEBUG] collapse done[0m
+[35m[DEBUG] Splits: 6[0m
+[35m[DEBUG] Collapses: 2[0m
+[35m[DEBUG] Flips: 8[0m
+[35m[DEBUG] #Vertices: 86[0m
+[32m[37m[TIMER] timer flip took 0.061408s.[0m
+[32m[37m[TIMER] timer collapse took 0.212854s.[0m
+[32m[37m[TIMER] timer_split took 0.180529s.[0m
+[35m[DEBUG] landmark_err = 9.96925e-05[0m
+[35m[DEBUG] Energy in iteration eval() 431.393[0m
+[32mComputing Newton step via direct solve. n = 344, nnz_per_row = 27.4419[0m
+[35m[DEBUG] newton decr: 109.99[0m
+[35m[DEBUG] d.norm() = 2.00273[0m
+[32m[37m[TIMER] Line search took 1.11476s.[0m
+[32m[37m[TIMER] Solve took 0.00191792s.[0m
+[32m[37m[TIMER] Derivatives took 0.289448s.[0m
+[32m[37m[TIMER] Iteration took 1.51184s.[0m
+[35m[DEBUG] Final energy: 430.735[0m
+[32m[37m[TIMER] optimize took 1.61006s.[0m
+[32m[37m[TIMER] remeshing took 0.50066s.[0m
+[32mStarting iteration: 7[0m
+[35m[DEBUG] splits done[0m
+[35m[DEBUG] collapse done[0m
+[35m[DEBUG] Splits: 4[0m
+[35m[DEBUG] Collapses: 2[0m
+[35m[DEBUG] Flips: 4[0m
+[35m[DEBUG] #Vertices: 88[0m
+[32m[37m[TIMER] timer flip took 0.0569015s.[0m
+[32m[37m[TIMER] timer collapse took 0.186985s.[0m
+[32m[37m[TIMER] timer_split took 0.163649s.[0m
+[35m[DEBUG] landmark_err = 9.96925e-05[0m
+[35m[DEBUG] Energy in iteration eval() 428.657[0m
+[32mComputing Newton step via direct solve. n = 352, nnz_per_row = 27.4545[0m
+[35m[DEBUG] newton decr: 129.575[0m
+[35m[DEBUG] d.norm() = 1.90407[0m
+[32m[37m[TIMER] Line search took 0.651498s.[0m
+[32m[37m[TIMER] Solve took 0.00194398s.[0m
+[32m[37m[TIMER] Derivatives took 0.30472s.[0m
+[32m[37m[TIMER] Iteration took 1.06367s.[0m
+[35m[DEBUG] Final energy: 420.131[0m
+[32m[37m[TIMER] optimize took 1.15622s.[0m
+[32m[37m[TIMER] remeshing took 0.450477s.[0m
+[32mStarting iteration: 8[0m
+[35m[DEBUG] splits done[0m
+[35m[DEBUG] collapse done[0m
+[35m[DEBUG] Splits: 0[0m
+[35m[DEBUG] Collapses: 0[0m
+[35m[DEBUG] Flips: 3[0m
+[35m[DEBUG] #Vertices: 88[0m
+[32m[37m[TIMER] timer flip took 0.0525893s.[0m
+[32m[37m[TIMER] timer collapse took 0.13409s.[0m
+[32m[37m[TIMER] timer_split took 0.204826s.[0m
+[35m[DEBUG] landmark_err = 9.96925e-05[0m
+[35m[DEBUG] Energy in iteration eval() 420.105[0m
+[32mComputing Newton step via direct solve. n = 352, nnz_per_row = 27.4545[0m
+[35m[DEBUG] newton decr: 108.525[0m
+[35m[DEBUG] d.norm() = 2.01304[0m
+[32m[37m[TIMER] Line search took 0.642248s.[0m
+[32m[37m[TIMER] Solve took 0.0020299s.[0m
+[32m[37m[TIMER] Derivatives took 0.261186s.[0m
+[32m[37m[TIMER] Iteration took 1.00854s.[0m
+[35m[DEBUG] Final energy: 411.779[0m
+[32m[37m[TIMER] optimize took 1.09474s.[0m
+[32m[37m[TIMER] remeshing took 0.435312s.[0m
+[32mStarting iteration: 9[0m
+[35m[DEBUG] splits done[0m
+[35m[DEBUG] collapse done[0m
+[35m[DEBUG] Splits: 2[0m
+[35m[DEBUG] Collapses: 0[0m
+[35m[DEBUG] Flips: 3[0m
+[35m[DEBUG] #Vertices: 90[0m
+[32m[37m[TIMER] timer flip took 0.0538254s.[0m
+[32m[37m[TIMER] timer collapse took 0.144795s.[0m
+[32m[37m[TIMER] timer_split took 0.196413s.[0m
+[35m[DEBUG] landmark_err = 9.96925e-05[0m
+[35m[DEBUG] Energy in iteration eval() 411.697[0m
+[32mComputing Newton step via direct solve. n = 360, nnz_per_row = 27.4667[0m
+[35m[DEBUG] newton decr: 65.5603[0m
+[35m[DEBUG] d.norm() = 1.53949[0m
+[32m[37m[TIMER] Line search took 1.13021s.[0m
+[32m[37m[TIMER] Solve took 0.00163718s.[0m
+[32m[37m[TIMER] Derivatives took 0.262733s.[0m
+[32m[37m[TIMER] Iteration took 1.49564s.[0m
+[35m[DEBUG] Final energy: 411.496[0m
+[32m[37m[TIMER] optimize took 1.58032s.[0m
+[32m[37m[TIMER] remeshing took 0.440079s.[0m
+[32mStarting iteration: 10[0m
+[35m[DEBUG] splits done[0m
+[35m[DEBUG] collapse done[0m
+[35m[DEBUG] Splits: 1[0m
+[35m[DEBUG] Collapses: 0[0m
+[35m[DEBUG] Flips: 1[0m
+[35m[DEBUG] #Vertices: 91[0m
+[32m[37m[TIMER] timer flip took 0.0589788s.[0m
+[32m[37m[TIMER] timer collapse took 0.144163s.[0m
+[32m[37m[TIMER] timer_split took 0.177009s.[0m
+[35m[DEBUG] landmark_err = 9.96925e-05[0m
+[35m[DEBUG] Energy in iteration eval() 411.448[0m
+[32mComputing Newton step via direct solve. n = 364, nnz_per_row = 27.4725[0m
+[35m[DEBUG] newton decr: 63.3036[0m
+[35m[DEBUG] d.norm() = 1.64792[0m
+[32m[37m[TIMER] Line search took 0.986672s.[0m
+[32m[37m[TIMER] Solve took 0.00165831s.[0m
+[32m[37m[TIMER] Derivatives took 0.279651s.[0m
+[32m[37m[TIMER] Iteration took 1.36524s.[0m
+[35m[DEBUG] Final energy: 410.785[0m
+[32m[37m[TIMER] optimize took 1.45614s.[0m
+[32m[37m[TIMER] remeshing took 0.421496s.[0m
+[32mStarting iteration: 11[0m
+[35m[DEBUG] splits done[0m
+[35m[DEBUG] collapse done[0m
+[35m[DEBUG] Splits: 0[0m
+[35m[DEBUG] Collapses: 0[0m
+[35m[DEBUG] Flips: 0[0m
+[35m[DEBUG] #Vertices: 91[0m
+[32m[37m[TIMER] timer flip took 0.053181s.[0m
+[32m[37m[TIMER] timer collapse took 0.150325s.[0m
+[32m[37m[TIMER] timer_split took 0.166156s.[0m
+[35m[DEBUG] landmark_err = 9.96925e-05[0m
+[35m[DEBUG] Energy in iteration eval() 410.785[0m
+[32mComputing Newton step via direct solve. n = 364, nnz_per_row = 27.4725[0m
+[35m[DEBUG] newton decr: 54.4124[0m
+[35m[DEBUG] d.norm() = 1.57823[0m
+[32m[37m[TIMER] Line search took 0.87332s.[0m
+[32m[37m[TIMER] Solve took 0.00239715s.[0m
+[32m[37m[TIMER] Derivatives took 0.271549s.[0m
+[32m[37m[TIMER] Iteration took 1.25008s.[0m
+[35m[DEBUG] Final energy: 408.869[0m
+[32m[37m[TIMER] optimize took 1.38538s.[0m
+[32m[37m[TIMER] remeshing took 0.421564s.[0m
+[32mStarting iteration: 12[0m
+[35m[DEBUG] splits done[0m
+[35m[DEBUG] collapse done[0m
+[35m[DEBUG] Splits: 1[0m
+[35m[DEBUG] Collapses: 2[0m
+[35m[DEBUG] Flips: 3[0m
+[35m[DEBUG] #Vertices: 90[0m
+[32m[37m[TIMER] timer flip took 0.0755947s.[0m
+[32m[37m[TIMER] timer collapse took 0.192926s.[0m
+[32m[37m[TIMER] timer_split took 0.21477s.[0m
+[35m[DEBUG] landmark_err = 9.96925e-05[0m
+[35m[DEBUG] Energy in iteration eval() 408.814[0m
+[32mComputing Newton step via direct solve. n = 360, nnz_per_row = 27.4667[0m
+[35m[DEBUG] newton decr: 51.5334[0m
+[35m[DEBUG] d.norm() = 1.43839[0m
+[32m[37m[TIMER] Line search took 0.421829s.[0m
+[32m[37m[TIMER] Solve took 0.00199091s.[0m
+[32m[37m[TIMER] Derivatives took 0.292795s.[0m
+[32m[37m[TIMER] Iteration took 0.819508s.[0m
+[35m[DEBUG] Final energy: 389.442[0m
+[32m[37m[TIMER] optimize took 0.914962s.[0m
+[32m[37m[TIMER] remeshing took 0.551624s.[0m
+[32mStarting iteration: 13[0m
+[35m[DEBUG] splits done[0m
+[35m[DEBUG] collapse done[0m
+[35m[DEBUG] Splits: 3[0m
+[35m[DEBUG] Collapses: 2[0m
+[35m[DEBUG] Flips: 9[0m
+[35m[DEBUG] #Vertices: 91[0m
+[32m[37m[TIMER] timer flip took 0.0583784s.[0m
+[32m[37m[TIMER] timer collapse took 0.191243s.[0m
+[32m[37m[TIMER] timer_split took 0.195571s.[0m
+[35m[DEBUG] landmark_err = 9.96925e-05[0m
+[35m[DEBUG] Energy in iteration eval() 388.572[0m
+[32mComputing Newton step via direct solve. n = 364, nnz_per_row = 27.4725[0m
+[35m[DEBUG] newton decr: 100.488[0m
+[35m[DEBUG] d.norm() = 2.21942[0m
+[32m[37m[TIMER] Line search took 0.908427s.[0m
+[32m[37m[TIMER] Solve took 0.00169693s.[0m
+[32m[37m[TIMER] Derivatives took 0.276886s.[0m
+[32m[37m[TIMER] Iteration took 1.30215s.[0m
+[35m[DEBUG] Final energy: 386.802[0m
+[32m[37m[TIMER] optimize took 1.39379s.[0m
+[32m[37m[TIMER] remeshing took 0.485988s.[0m
+[32mStarting iteration: 14[0m
+[35m[DEBUG] splits done[0m
+[35m[DEBUG] collapse done[0m
+[35m[DEBUG] Splits: 0[0m
+[35m[DEBUG] Collapses: 0[0m
+[35m[DEBUG] Flips: 2[0m
+[35m[DEBUG] #Vertices: 91[0m
+[32m[37m[TIMER] timer flip took 0.059581s.[0m
+[32m[37m[TIMER] timer collapse took 0.147349s.[0m
+[32m[37m[TIMER] timer_split took 0.203084s.[0m
+[35m[DEBUG] landmark_err = 9.96925e-05[0m
+[35m[DEBUG] Energy in iteration eval() 386.788[0m
+[32mComputing Newton step via direct solve. n = 364, nnz_per_row = 27.4725[0m
+[35m[DEBUG] newton decr: 84.6896[0m
+[35m[DEBUG] d.norm() = 2.30807[0m
+[32m[37m[TIMER] Line search took 0.587246s.[0m
+[32m[37m[TIMER] Solve took 0.00272062s.[0m
+[32m[37m[TIMER] Derivatives took 0.297163s.[0m
+[32m[37m[TIMER] Iteration took 0.995034s.[0m
+[35m[DEBUG] Final energy: 381.079[0m
+[32m[37m[TIMER] optimize took 1.08214s.[0m
+[32m[37m[TIMER] remeshing took 0.475201s.[0m
+[32mStarting iteration: 15[0m
+[35m[DEBUG] splits done[0m
+[35m[DEBUG] collapse done[0m
+[35m[DEBUG] Splits: 1[0m
+[35m[DEBUG] Collapses: 1[0m
+[35m[DEBUG] Flips: 1[0m
+[35m[DEBUG] #Vertices: 91[0m
+[32m[37m[TIMER] timer flip took 0.0529755s.[0m
+[32m[37m[TIMER] timer collapse took 0.148575s.[0m
+[32m[37m[TIMER] timer_split took 0.196633s.[0m
+[35m[DEBUG] landmark_err = 9.96925e-05[0m
+[35m[DEBUG] Energy in iteration eval() 381.069[0m
+[32mComputing Newton step via direct solve. n = 364, nnz_per_row = 27.4725[0m
+[35m[DEBUG] newton decr: 74.1404[0m
+[35m[DEBUG] d.norm() = 1.5972[0m
+[32m[37m[TIMER] Line search took 0.64409s.[0m
+[32m[37m[TIMER] Solve took 0.00250892s.[0m
+[32m[37m[TIMER] Derivatives took 0.302628s.[0m
+[32m[37m[TIMER] Iteration took 1.06817s.[0m
+[35m[DEBUG] Final energy: 378.563[0m
+[32m[37m[TIMER] optimize took 1.17109s.[0m
+[32m[37m[TIMER] remeshing took 0.440149s.[0m
+[32mStarting iteration: 16[0m
+[35m[DEBUG] splits done[0m
+[35m[DEBUG] collapse done[0m
+[35m[DEBUG] Splits: 1[0m
+[35m[DEBUG] Collapses: 0[0m
+[35m[DEBUG] Flips: 2[0m
+[35m[DEBUG] #Vertices: 92[0m
+[32m[37m[TIMER] timer flip took 0.0501957s.[0m
+[32m[37m[TIMER] timer collapse took 0.137237s.[0m
+[32m[37m[TIMER] timer_split took 0.175906s.[0m
+[35m[DEBUG] landmark_err = 9.96925e-05[0m
+[35m[DEBUG] Energy in iteration eval() 378.542[0m
+[32mComputing Newton step via direct solve. n = 368, nnz_per_row = 27.4783[0m
+[35m[DEBUG] newton decr: 68.9299[0m
+[35m[DEBUG] d.norm() = 1.9438[0m
+[32m[37m[TIMER] Line search took 0.486678s.[0m
+[32m[37m[TIMER] Solve took 0.00203768s.[0m
+[32m[37m[TIMER] Derivatives took 0.300767s.[0m
+[32m[37m[TIMER] Iteration took 0.884826s.[0m
+[35m[DEBUG] Final energy: 367.358[0m
+[32m[37m[TIMER] optimize took 0.961124s.[0m
+[32m[37m[TIMER] remeshing took 0.422179s.[0m
+[32mStarting iteration: 17[0m
+[35m[DEBUG] splits done[0m
+[35m[DEBUG] collapse done[0m
+[35m[DEBUG] Splits: 2[0m
+[35m[DEBUG] Collapses: 1[0m
+[35m[DEBUG] Flips: 5[0m
+[35m[DEBUG] #Vertices: 93[0m
+[32m[37m[TIMER] timer flip took 0.0587595s.[0m
+[32m[37m[TIMER] timer collapse took 0.182003s.[0m
+[32m[37m[TIMER] timer_split took 0.189665s.[0m
+[35m[DEBUG] landmark_err = 9.96925e-05[0m
+[35m[DEBUG] Energy in iteration eval() 362.291[0m
+[32mComputing Newton step via direct solve. n = 372, nnz_per_row = 27.4839[0m
+[35m[DEBUG] newton decr: 85.429[0m
+[35m[DEBUG] d.norm() = 1.64166[0m
+[32m[37m[TIMER] Line search took 0.603541s.[0m
+[32m[37m[TIMER] Solve took 0.00168452s.[0m
+[32m[37m[TIMER] Derivatives took 0.263761s.[0m
+[32m[37m[TIMER] Iteration took 0.972261s.[0m
+[35m[DEBUG] Final energy: 353.319[0m
+[32m[37m[TIMER] optimize took 1.08723s.[0m
+[32m[37m[TIMER] remeshing took 0.475486s.[0m
+[32mStarting iteration: 18[0m
+[35m[DEBUG] splits done[0m
+[35m[DEBUG] collapse done[0m
+[35m[DEBUG] Splits: 1[0m
+[35m[DEBUG] Collapses: 0[0m
+[35m[DEBUG] Flips: 2[0m
+[35m[DEBUG] #Vertices: 94[0m
+[32m[37m[TIMER] timer flip took 0.0493473s.[0m
+[32m[37m[TIMER] timer collapse took 0.139336s.[0m
+[32m[37m[TIMER] timer_split took 0.168105s.[0m
+[35m[DEBUG] landmark_err = 9.96925e-05[0m
+[35m[DEBUG] Energy in iteration eval() 353.259[0m
+[32mComputing Newton step via direct solve. n = 376, nnz_per_row = 27.4894[0m
+[35m[DEBUG] newton decr: 78.5061[0m
+[35m[DEBUG] d.norm() = 1.90687[0m
+[32m[37m[TIMER] Line search took 0.633969s.[0m
+[32m[37m[TIMER] Solve took 0.0015447s.[0m
+[32m[37m[TIMER] Derivatives took 0.24468s.[0m
+[32m[37m[TIMER] Iteration took 0.976346s.[0m
+[35m[DEBUG] Final energy: 344.317[0m
+[32m[37m[TIMER] optimize took 1.07303s.[0m
+[32m[37m[TIMER] remeshing took 0.417153s.[0m
+[32mStarting iteration: 19[0m
+[35m[DEBUG] splits done[0m
+[35m[DEBUG] collapse done[0m
+[35m[DEBUG] Splits: 1[0m
+[35m[DEBUG] Collapses: 2[0m
+[35m[DEBUG] Flips: 5[0m
+[35m[DEBUG] #Vertices: 93[0m
+[32m[37m[TIMER] timer flip took 0.0566831s.[0m
+[32m[37m[TIMER] timer collapse took 0.150888s.[0m
+[32m[37m[TIMER] timer_split took 0.167461s.[0m
+[35m[DEBUG] landmark_err = 9.96925e-05[0m
+[35m[DEBUG] Energy in iteration eval() 344.038[0m
+[32mComputing Newton step via direct solve. n = 372, nnz_per_row = 27.4839[0m
+[35m[DEBUG] newton decr: 63.507[0m
+[35m[DEBUG] d.norm() = 1.46903[0m
+[32m[37m[TIMER] Line search took 0.725054s.[0m
+[32m[37m[TIMER] Solve took 0.00230993s.[0m
+[32m[37m[TIMER] Derivatives took 0.287823s.[0m
+[32m[37m[TIMER] Iteration took 1.10777s.[0m
+[35m[DEBUG] Final energy: 340.765[0m
+[32m[37m[TIMER] optimize took 1.19824s.[0m
+[32m[37m[TIMER] remeshing took 0.415654s.[0m
+[32mStarting iteration: 20[0m
+[35m[DEBUG] splits done[0m
+[35m[DEBUG] collapse done[0m
+[35m[DEBUG] Splits: 2[0m
+[35m[DEBUG] Collapses: 1[0m
+[35m[DEBUG] Flips: 1[0m
+[35m[DEBUG] #Vertices: 94[0m
+[32m[37m[TIMER] timer flip took 0.0610615s.[0m
+[32m[37m[TIMER] timer collapse took 0.124126s.[0m
+[32m[37m[TIMER] timer_split took 0.189343s.[0m
+[35m[DEBUG] landmark_err = 9.96925e-05[0m
+[35m[DEBUG] Energy in iteration eval() 340.652[0m
+[32mComputing Newton step via direct solve. n = 376, nnz_per_row = 27.4894[0m
+[35m[DEBUG] newton decr: 67.6129[0m
+[35m[DEBUG] d.norm() = 1.57141[0m
+[32m[37m[TIMER] Line search took 0.710136s.[0m
+[32m[37m[TIMER] Solve took 0.0019008s.[0m
+[32m[37m[TIMER] Derivatives took 0.252016s.[0m
+[32m[37m[TIMER] Iteration took 1.05716s.[0m
+[35m[DEBUG] Final energy: 338.246[0m
+[32m[37m[TIMER] optimize took 1.15134s.[0m
+[32m[37m[TIMER] remeshing took 0.419293s.[0m
+[32mStarting iteration: 21[0m
+[35m[DEBUG] splits done[0m
+[35m[DEBUG] collapse done[0m
+[35m[DEBUG] Splits: 2[0m
+[35m[DEBUG] Collapses: 1[0m
+[35m[DEBUG] Flips: 2[0m
+[35m[DEBUG] #Vertices: 95[0m
+[32m[37m[TIMER] timer flip took 0.0749045s.[0m
+[32m[37m[TIMER] timer collapse took 0.130189s.[0m
+[32m[37m[TIMER] timer_split took 0.184865s.[0m
+[35m[DEBUG] landmark_err = 9.96925e-05[0m
+[35m[DEBUG] Energy in iteration eval() 338.215[0m
+[32mComputing Newton step via direct solve. n = 380, nnz_per_row = 27.4947[0m
+[35m[DEBUG] newton decr: 60.8515[0m
+[35m[DEBUG] d.norm() = 1.61198[0m
+[32m[37m[TIMER] Line search took 0.746209s.[0m
+[32m[37m[TIMER] Solve took 0.0017006s.[0m
+[32m[37m[TIMER] Derivatives took 0.257585s.[0m
+[32m[37m[TIMER] Iteration took 1.09741s.[0m
+[35m[DEBUG] Final energy: 335.609[0m
+[32m[37m[TIMER] optimize took 1.17896s.[0m
+[32m[37m[TIMER] remeshing took 0.451673s.[0m
+[32mStarting iteration: 22[0m
+[35m[DEBUG] splits done[0m
+[35m[DEBUG] collapse done[0m
+[35m[DEBUG] Splits: 2[0m
+[35m[DEBUG] Collapses: 1[0m
+[35m[DEBUG] Flips: 2[0m
+[35m[DEBUG] #Vertices: 96[0m
+[32m[37m[TIMER] timer flip took 0.0538868s.[0m
+[32m[37m[TIMER] timer collapse took 0.123023s.[0m
+[32m[37m[TIMER] timer_split took 0.173787s.[0m
+[35m[DEBUG] landmark_err = 9.96925e-05[0m
+[35m[DEBUG] Energy in iteration eval() 335.572[0m
+[32mComputing Newton step via direct solve. n = 384, nnz_per_row = 27.5[0m
+[35m[DEBUG] newton decr: 53.4437[0m
+[35m[DEBUG] d.norm() = 1.59729[0m
+[32m[37m[TIMER] Line search took 0.566454s.[0m
+[32m[37m[TIMER] Solve took 0.00663301s.[0m
+[32m[37m[TIMER] Derivatives took 0.267712s.[0m
+[32m[37m[TIMER] Iteration took 0.941012s.[0m
+[35m[DEBUG] Final energy: 326.004[0m
+[32m[37m[TIMER] optimize took 1.03684s.[0m
+[32m[37m[TIMER] remeshing took 0.392535s.[0m
+[32mStarting iteration: 23[0m
+[35m[DEBUG] splits done[0m
+[35m[DEBUG] collapse done[0m
+[35m[DEBUG] Splits: 0[0m
+[35m[DEBUG] Collapses: 0[0m
+[35m[DEBUG] Flips: 0[0m
+[35m[DEBUG] #Vertices: 96[0m
+[32m[37m[TIMER] timer flip took 0.0557853s.[0m
+[32m[37m[TIMER] timer collapse took 0.136856s.[0m
+[32m[37m[TIMER] timer_split took 0.187592s.[0m
+[35m[DEBUG] landmark_err = 9.96925e-05[0m
+[35m[DEBUG] Energy in iteration eval() 326.004[0m
+[32mComputing Newton step via direct solve. n = 384, nnz_per_row = 27.5[0m
+[35m[DEBUG] newton decr: 50.5957[0m
+[35m[DEBUG] d.norm() = 1.6649[0m
+[32m[37m[TIMER] Line search took 0.773945s.[0m
+[32m[37m[TIMER] Solve took 0.00201095s.[0m
+[32m[37m[TIMER] Derivatives took 0.283921s.[0m
+[32m[37m[TIMER] Iteration took 1.14736s.[0m
+[35m[DEBUG] Final energy: 324.528[0m
+[32m[37m[TIMER] optimize took 1.23389s.[0m
+[32m[37m[TIMER] remeshing took 0.449504s.[0m
+[32mStarting iteration: 24[0m
+[35m[DEBUG] splits done[0m
+[35m[DEBUG] collapse done[0m
+[35m[DEBUG] Splits: 0[0m
+[35m[DEBUG] Collapses: 1[0m
+[35m[DEBUG] Flips: 1[0m
+[35m[DEBUG] #Vertices: 95[0m
+[32m[37m[TIMER] timer flip took 0.0546045s.[0m
+[32m[37m[TIMER] timer collapse took 0.159606s.[0m
+[32m[37m[TIMER] timer_split took 0.184522s.[0m
+[35m[DEBUG] landmark_err = 9.96925e-05[0m
+[35m[DEBUG] Energy in iteration eval() 323.365[0m
+[32mComputing Newton step via direct solve. n = 380, nnz_per_row = 27.4947[0m
+[35m[DEBUG] newton decr: 56.2333[0m
+[35m[DEBUG] d.norm() = 1.57346[0m
+[32m[37m[TIMER] Line search took 0.626425s.[0m
+[32m[37m[TIMER] Solve took 0.00218994s.[0m
+[32m[37m[TIMER] Derivatives took 0.30916s.[0m
+[32m[37m[TIMER] Iteration took 1.03123s.[0m
+[35m[DEBUG] Final energy: 319.852[0m
+[32m[37m[TIMER] optimize took 1.11258s.[0m
+[32m[37m[TIMER] remeshing took 0.448192s.[0m
+[32mStarting iteration: 25[0m
+[35m[DEBUG] splits done[0m
+[35m[DEBUG] collapse done[0m
+[35m[DEBUG] Splits: 1[0m
+[35m[DEBUG] Collapses: 0[0m
+[35m[DEBUG] Flips: 2[0m
+[35m[DEBUG] #Vertices: 96[0m
+[32m[37m[TIMER] timer flip took 0.0519501s.[0m
+[32m[37m[TIMER] timer collapse took 0.122023s.[0m
+[32m[37m[TIMER] timer_split took 0.184606s.[0m
+[35m[DEBUG] landmark_err = 9.96925e-05[0m
+[35m[DEBUG] Energy in iteration eval() 319.685[0m
+[32mComputing Newton step via direct solve. n = 384, nnz_per_row = 27.5[0m
+[35m[DEBUG] newton decr: 49.1317[0m
+[35m[DEBUG] d.norm() = 1.31795[0m
+[32m[37m[TIMER] Line search took 0.940251s.[0m
+[32m[37m[TIMER] Solve took 0.00225891s.[0m
+[32m[37m[TIMER] Derivatives took 0.216408s.[0m
+[32m[37m[TIMER] Iteration took 1.24879s.[0m
+[35m[DEBUG] Final energy: 319.222[0m
+[32m[37m[TIMER] optimize took 1.37056s.[0m
+[32m[37m[TIMER] remeshing took 0.405687s.[0m
+[32mStarting iteration: 26[0m
+[35m[DEBUG] splits done[0m
+[35m[DEBUG] collapse done[0m
+[35m[DEBUG] Splits: 0[0m
+[35m[DEBUG] Collapses: 0[0m
+[35m[DEBUG] Flips: 0[0m
+[35m[DEBUG] #Vertices: 96[0m
+[32m[37m[TIMER] timer flip took 0.0478358s.[0m
+[32m[37m[TIMER] timer collapse took 0.123807s.[0m
+[32m[37m[TIMER] timer_split took 0.167745s.[0m
+[35m[DEBUG] landmark_err = 9.96925e-05[0m
+[35m[DEBUG] Energy in iteration eval() 319.222[0m
+[32mComputing Newton step via direct solve. n = 384, nnz_per_row = 27.5[0m
+[35m[DEBUG] newton decr: 58.9033[0m
+[35m[DEBUG] d.norm() = 1.45177[0m
+[32m[37m[TIMER] Line search took 1.34642s.[0m
+[32m[37m[TIMER] Solve took 0.00204377s.[0m
+[32m[37m[TIMER] Derivatives took 0.227225s.[0m
+[32m[37m[TIMER] Iteration took 1.66482s.[0m
+[35m[DEBUG] Final energy: 319.194[0m
+[32m[37m[TIMER] optimize took 1.74593s.[0m
+[32m[37m[TIMER] remeshing took 0.383772s.[0m
+[32mStarting iteration: 27[0m
+[35m[DEBUG] splits done[0m
+[35m[DEBUG] collapse done[0m
+[35m[DEBUG] Splits: 0[0m
+[35m[DEBUG] Collapses: 0[0m
+[35m[DEBUG] Flips: 0[0m
+[35m[DEBUG] #Vertices: 96[0m
+[32m[37m[TIMER] timer flip took 0.0493986s.[0m
+[32m[37m[TIMER] timer collapse took 0.124247s.[0m
+[32m[37m[TIMER] timer_split took 0.17433s.[0m
+[35m[DEBUG] landmark_err = 9.96925e-05[0m
+[35m[DEBUG] Energy in iteration eval() 319.194[0m
+[32mComputing Newton step via direct solve. n = 384, nnz_per_row = 27.5[0m
+[35m[DEBUG] newton decr: 47.9519[0m
+[35m[DEBUG] d.norm() = 1.30251[0m
+[32m[37m[TIMER] Line search took 0.625601s.[0m
+[32m[37m[TIMER] Solve took 0.00200526s.[0m
+[32m[37m[TIMER] Derivatives took 0.272997s.[0m
+[32m[37m[TIMER] Iteration took 0.993616s.[0m
+[35m[DEBUG] Final energy: 316.301[0m
+[32m[37m[TIMER] optimize took 1.07036s.[0m
+[32m[37m[TIMER] remeshing took 0.394171s.[0m
+[32mStarting iteration: 28[0m
+[35m[DEBUG] splits done[0m
+[35m[DEBUG] collapse done[0m
+[35m[DEBUG] Splits: 0[0m
+[35m[DEBUG] Collapses: 0[0m
+[35m[DEBUG] Flips: 1[0m
+[35m[DEBUG] #Vertices: 96[0m
+[32m[37m[TIMER] timer flip took 0.0548937s.[0m
+[32m[37m[TIMER] timer collapse took 0.124135s.[0m
+[32m[37m[TIMER] timer_split took 0.155681s.[0m
+[35m[DEBUG] landmark_err = 9.96925e-05[0m
+[35m[DEBUG] Energy in iteration eval() 316.3[0m
+[32mComputing Newton step via direct solve. n = 384, nnz_per_row = 27.5[0m
+[35m[DEBUG] newton decr: 53.4081[0m
+[35m[DEBUG] d.norm() = 1.45762[0m
+[32m[37m[TIMER] Line search took 0.673802s.[0m
+[32m[37m[TIMER] Solve took 0.00237453s.[0m
+[32m[37m[TIMER] Derivatives took 0.288246s.[0m
+[32m[37m[TIMER] Iteration took 1.07467s.[0m
+[35m[DEBUG] Final energy: 314.229[0m
+[32m[37m[TIMER] optimize took 1.15921s.[0m
+[32m[37m[TIMER] remeshing took 0.379769s.[0m
+[32mStarting iteration: 29[0m
+[35m[DEBUG] splits done[0m
+[35m[DEBUG] collapse done[0m
+[35m[DEBUG] Splits: 0[0m
+[35m[DEBUG] Collapses: 0[0m
+[35m[DEBUG] Flips: 1[0m
+[35m[DEBUG] #Vertices: 96[0m
+[32m[37m[TIMER] timer flip took 0.0667006s.[0m
+[32m[37m[TIMER] timer collapse took 0.154104s.[0m
+[32m[37m[TIMER] timer_split took 0.182547s.[0m
+[35m[DEBUG] landmark_err = 9.96925e-05[0m
+[35m[DEBUG] Energy in iteration eval() 313.989[0m
+[32mComputing Newton step via direct solve. n = 384, nnz_per_row = 27.5[0m
+[35m[DEBUG] newton decr: 42.5815[0m
+[35m[DEBUG] d.norm() = 1.41285[0m
+[32m[37m[TIMER] Line search took 0.610307s.[0m
+[32m[37m[TIMER] Solve took 0.00166543s.[0m
+[32m[37m[TIMER] Derivatives took 0.318746s.[0m
+[32m[37m[TIMER] Iteration took 1.0202s.[0m
+[35m[DEBUG] Final energy: 307.68[0m
+[32m[37m[TIMER] optimize took 1.09681s.[0m
+[32m[37m[TIMER] remeshing took 0.467852s.[0m
+[32mStarting iteration: 30[0m
+[35m[DEBUG] splits done[0m
+[35m[DEBUG] collapse done[0m
+[35m[DEBUG] Splits: 3[0m
+[35m[DEBUG] Collapses: 1[0m
+[35m[DEBUG] Flips: 4[0m
+[35m[DEBUG] #Vertices: 98[0m
+[32m[37m[TIMER] timer flip took 0.0601242s.[0m
+[32m[37m[TIMER] timer collapse took 0.145865s.[0m
+[32m[37m[TIMER] timer_split took 0.191008s.[0m
+[35m[DEBUG] landmark_err = 9.96925e-05[0m
+[35m[DEBUG] Energy in iteration eval() 307.454[0m
+[32mComputing Newton step via direct solve. n = 392, nnz_per_row = 27.5102[0m
+[35m[DEBUG] newton decr: 43.7095[0m
+[35m[DEBUG] d.norm() = 1.31478[0m
+[32m[37m[TIMER] Line search took 0.684343s.[0m
+[32m[37m[TIMER] Solve took 0.00172916s.[0m
+[32m[37m[TIMER] Derivatives took 0.216967s.[0m
+[32m[37m[TIMER] Iteration took 0.990886s.[0m
+[35m[DEBUG] Final energy: 305.189[0m
+[32m[37m[TIMER] optimize took 1.07814s.[0m
+[32m[37m[TIMER] remeshing took 0.444413s.[0m
+[32mStarting iteration: 31[0m
+[35m[DEBUG] splits done[0m
+[35m[DEBUG] collapse done[0m
+[35m[DEBUG] Splits: 1[0m
+[35m[DEBUG] Collapses: 1[0m
+[35m[DEBUG] Flips: 1[0m
+[35m[DEBUG] #Vertices: 98[0m
+[32m[37m[TIMER] timer flip took 0.0508394s.[0m
+[32m[37m[TIMER] timer collapse took 0.145753s.[0m
+[32m[37m[TIMER] timer_split took 0.156225s.[0m
+[35m[DEBUG] landmark_err = 9.96925e-05[0m
+[35m[DEBUG] Energy in iteration eval() 305.167[0m
+[32mComputing Newton step via direct solve. n = 392, nnz_per_row = 27.5102[0m
+[35m[DEBUG] newton decr: 42.0753[0m
+[35m[DEBUG] d.norm() = 1.25517[0m
+[32m[37m[TIMER] Line search took 0.814851s.[0m
+[32m[37m[TIMER] Solve took 0.00210501s.[0m
+[32m[37m[TIMER] Derivatives took 0.247131s.[0m
+[32m[37m[TIMER] Iteration took 1.1525s.[0m
+[35m[DEBUG] Final energy: 304.224[0m
+[32m[37m[TIMER] optimize took 1.24095s.[0m
+[32m[37m[TIMER] remeshing took 0.398109s.[0m
+[32mStarting iteration: 32[0m
+[35m[DEBUG] splits done[0m
+[35m[DEBUG] collapse done[0m
+[35m[DEBUG] Splits: 1[0m
+[35m[DEBUG] Collapses: 1[0m
+[35m[DEBUG] Flips: 0[0m
+[35m[DEBUG] #Vertices: 98[0m
+[32m[37m[TIMER] timer flip took 0.052107s.[0m
+[32m[37m[TIMER] timer collapse took 0.153064s.[0m
+[32m[37m[TIMER] timer_split took 0.17217s.[0m
+[35m[DEBUG] landmark_err = 9.96925e-05[0m
+[35m[DEBUG] Energy in iteration eval() 304.209[0m
+[32mComputing Newton step via direct solve. n = 392, nnz_per_row = 27.5102[0m
+[35m[DEBUG] newton decr: 38.9039[0m
+[35m[DEBUG] d.norm() = 1.23795[0m
+[32m[37m[TIMER] Line search took 0.554298s.[0m
+[32m[37m[TIMER] Solve took 0.00177431s.[0m
+[32m[37m[TIMER] Derivatives took 0.231288s.[0m
+[32m[37m[TIMER] Iteration took 0.877432s.[0m
+[35m[DEBUG] Final energy: 302.341[0m
+[32m[37m[TIMER] optimize took 0.955016s.[0m
+[32m[37m[TIMER] remeshing took 0.438231s.[0m
+[32mStarting iteration: 33[0m
+[35m[DEBUG] splits done[0m
+[35m[DEBUG] collapse done[0m
+[35m[DEBUG] Splits: 2[0m
+[35m[DEBUG] Collapses: 0[0m
+[35m[DEBUG] Flips: 1[0m
+[35m[DEBUG] #Vertices: 100[0m
+[32m[37m[TIMER] timer flip took 0.0606956s.[0m
+[32m[37m[TIMER] timer collapse took 0.139539s.[0m
+[32m[37m[TIMER] timer_split took 0.156356s.[0m
+[35m[DEBUG] landmark_err = 9.96925e-05[0m
+[35m[DEBUG] Energy in iteration eval() 302.321[0m
+[32mComputing Newton step via direct solve. n = 400, nnz_per_row = 27.52[0m
+[35m[DEBUG] newton decr: 46.0159[0m
+[35m[DEBUG] d.norm() = 1.59832[0m
+[32m[37m[TIMER] Line search took 0.572145s.[0m
+[32m[37m[TIMER] Solve took 0.00144999s.[0m
+[32m[37m[TIMER] Derivatives took 0.232183s.[0m
+[32m[37m[TIMER] Iteration took 0.919209s.[0m
+[35m[DEBUG] Final energy: 299.518[0m
+[32m[37m[TIMER] optimize took 0.996174s.[0m
+[32m[37m[TIMER] remeshing took 0.40237s.[0m
+[32mStarting iteration: 34[0m
+[35m[DEBUG] splits done[0m
+[35m[DEBUG] collapse done[0m
+[35m[DEBUG] Splits: 2[0m
+[35m[DEBUG] Collapses: 1[0m
+[35m[DEBUG] Flips: 0[0m
+[35m[DEBUG] #Vertices: 101[0m
+[32m[37m[TIMER] timer flip took 0.0506962s.[0m
+[32m[37m[TIMER] timer collapse took 0.144423s.[0m
+[32m[37m[TIMER] timer_split took 0.170084s.[0m
+[35m[DEBUG] landmark_err = 9.96925e-05[0m
+[35m[DEBUG] Energy in iteration eval() 299.483[0m
+[32mComputing Newton step via direct solve. n = 404, nnz_per_row = 27.5248[0m
+[35m[DEBUG] newton decr: 38.8758[0m
+[35m[DEBUG] d.norm() = 1.23958[0m
+[32m[37m[TIMER] Line search took 0.667153s.[0m
+[32m[37m[TIMER] Solve took 0.00199796s.[0m
+[32m[37m[TIMER] Derivatives took 0.260656s.[0m
+[32m[37m[TIMER] Iteration took 1.01596s.[0m
+[35m[DEBUG] Final energy: 297.875[0m
+[32m[37m[TIMER] optimize took 1.09147s.[0m
+[32m[37m[TIMER] remeshing took 0.411135s.[0m
+[32mStarting iteration: 35[0m
+[35m[DEBUG] splits done[0m
+[35m[DEBUG] collapse done[0m
+[35m[DEBUG] Splits: 0[0m
+[35m[DEBUG] Collapses: 0[0m
+[35m[DEBUG] Flips: 0[0m
+[35m[DEBUG] #Vertices: 101[0m
+[32m[37m[TIMER] timer flip took 0.0476509s.[0m
+[32m[37m[TIMER] timer collapse took 0.172334s.[0m
+[32m[37m[TIMER] timer_split took 0.208394s.[0m
+[35m[DEBUG] landmark_err = 9.96925e-05[0m
+[35m[DEBUG] Energy in iteration eval() 297.875[0m
+[32mComputing Newton step via direct solve. n = 404, nnz_per_row = 27.5248[0m
+[35m[DEBUG] newton decr: 51.0905[0m
+[35m[DEBUG] d.norm() = 2.408[0m
+[32m[37m[TIMER] Line search took 0.680598s.[0m
+[32m[37m[TIMER] Solve took 0.0020408s.[0m
+[32m[37m[TIMER] Derivatives took 0.278563s.[0m
+[32m[37m[TIMER] Iteration took 1.05507s.[0m
+[35m[DEBUG] Final energy: 296.95[0m
+[32m[37m[TIMER] optimize took 1.13301s.[0m
+[32m[37m[TIMER] remeshing took 0.53502s.[0m
+[32mStarting iteration: 36[0m
+[35m[DEBUG] splits done[0m
+[35m[DEBUG] collapse done[0m
+[35m[DEBUG] Splits: 0[0m
+[35m[DEBUG] Collapses: 0[0m
+[35m[DEBUG] Flips: 0[0m
+[35m[DEBUG] #Vertices: 101[0m
+[32m[37m[TIMER] timer flip took 0.0474032s.[0m
+[32m[37m[TIMER] timer collapse took 0.146719s.[0m
+[32m[37m[TIMER] timer_split took 0.156787s.[0m
+[35m[DEBUG] landmark_err = 9.96925e-05[0m
+[35m[DEBUG] Energy in iteration eval() 296.95[0m
+[32mComputing Newton step via direct solve. n = 404, nnz_per_row = 27.5248[0m
+[35m[DEBUG] newton decr: 38.5261[0m
+[35m[DEBUG] d.norm() = 1.18947[0m
+[32m[37m[TIMER] Line search took 0.525051s.[0m
+[32m[37m[TIMER] Solve took 0.00209801s.[0m
+[32m[37m[TIMER] Derivatives took 0.222375s.[0m
+[32m[37m[TIMER] Iteration took 0.837389s.[0m
+[35m[DEBUG] Final energy: 294.124[0m
+[32m[37m[TIMER] optimize took 0.915631s.[0m
+[32m[37m[TIMER] remeshing took 0.430606s.[0m
+[32mStarting iteration: 37[0m
+[35m[DEBUG] splits done[0m
+[35m[DEBUG] collapse done[0m
+[35m[DEBUG] Splits: 1[0m
+[35m[DEBUG] Collapses: 1[0m
+[35m[DEBUG] Flips: 0[0m
+[35m[DEBUG] #Vertices: 101[0m
+[32m[37m[TIMER] timer flip took 0.0550385s.[0m
+[32m[37m[TIMER] timer collapse took 0.14406s.[0m
+[32m[37m[TIMER] timer_split took 0.184635s.[0m
+[35m[DEBUG] landmark_err = 9.96925e-05[0m
+[35m[DEBUG] Energy in iteration eval() 294.097[0m
+[32mComputing Newton step via direct solve. n = 404, nnz_per_row = 27.5248[0m
+[35m[DEBUG] newton decr: 36.6739[0m
+[35m[DEBUG] d.norm() = 1.41787[0m
+[32m[37m[TIMER] Line search took 0.744175s.[0m
+[32m[37m[TIMER] Solve took 0.00212635s.[0m
+[32m[37m[TIMER] Derivatives took 0.226075s.[0m
+[32m[37m[TIMER] Iteration took 1.05776s.[0m
+[35m[DEBUG] Final energy: 293.086[0m
+[32m[37m[TIMER] optimize took 1.1288s.[0m
+[32m[37m[TIMER] remeshing took 0.442721s.[0m
+[32mStarting iteration: 38[0m
+[35m[DEBUG] splits done[0m
+[35m[DEBUG] collapse done[0m
+[35m[DEBUG] Splits: 0[0m
+[35m[DEBUG] Collapses: 0[0m
+[35m[DEBUG] Flips: 0[0m
+[35m[DEBUG] #Vertices: 101[0m
+[32m[37m[TIMER] timer flip took 0.0480807s.[0m
+[32m[37m[TIMER] timer collapse took 0.136569s.[0m
+[32m[37m[TIMER] timer_split took 0.155689s.[0m
+[35m[DEBUG] landmark_err = 9.96925e-05[0m
+[35m[DEBUG] Energy in iteration eval() 293.086[0m
+[32mComputing Newton step via direct solve. n = 404, nnz_per_row = 27.5248[0m
+[35m[DEBUG] newton decr: 30.7532[0m
+[35m[DEBUG] d.norm() = 1.3359[0m
+[32m[37m[TIMER] Line search took 0.544246s.[0m
+[32m[37m[TIMER] Solve took 0.00183554s.[0m
+[32m[37m[TIMER] Derivatives took 0.217871s.[0m
+[32m[37m[TIMER] Iteration took 0.849368s.[0m
+[35m[DEBUG] Final energy: 291.077[0m
+[32m[37m[TIMER] optimize took 0.954071s.[0m
+[32m[37m[TIMER] remeshing took 0.386258s.[0m
+[32mStarting iteration: 39[0m
+[35m[DEBUG] splits done[0m
+[35m[DEBUG] collapse done[0m
+[35m[DEBUG] Splits: 1[0m
+[35m[DEBUG] Collapses: 0[0m
+[35m[DEBUG] Flips: 1[0m
+[35m[DEBUG] #Vertices: 102[0m
+[32m[37m[TIMER] timer flip took 0.0447713s.[0m
+[32m[37m[TIMER] timer collapse took 0.135217s.[0m
+[32m[37m[TIMER] timer_split took 0.161539s.[0m
+[35m[DEBUG] landmark_err = 9.96925e-05[0m
+[35m[DEBUG] Energy in iteration eval() 291.064[0m
+[32mComputing Newton step via direct solve. n = 408, nnz_per_row = 27.5294[0m
+[35m[DEBUG] newton decr: 30.7542[0m
+[35m[DEBUG] d.norm() = 1.27486[0m
+[32m[37m[TIMER] Line search took 0.863683s.[0m
+[32m[37m[TIMER] Solve took 0.00227542s.[0m
+[32m[37m[TIMER] Derivatives took 0.225722s.[0m
+[32m[37m[TIMER] Iteration took 1.17817s.[0m
+[35m[DEBUG] Final energy: 290.711[0m
+[32m[37m[TIMER] optimize took 1.25973s.[0m
+[32m[37m[TIMER] remeshing took 0.383224s.[0m
+[32mStarting iteration: 40[0m
+[35m[DEBUG] splits done[0m
+[35m[DEBUG] collapse done[0m
+[35m[DEBUG] Splits: 0[0m
+[35m[DEBUG] Collapses: 0[0m
+[35m[DEBUG] Flips: 0[0m
+[35m[DEBUG] #Vertices: 102[0m
+[32m[37m[TIMER] timer flip took 0.0536691s.[0m
+[32m[37m[TIMER] timer collapse took 0.137777s.[0m
+[32m[37m[TIMER] timer_split took 0.184534s.[0m
+[35m[DEBUG] landmark_err = 9.96925e-05[0m
+[35m[DEBUG] Energy in iteration eval() 290.711[0m
+[32mComputing Newton step via direct solve. n = 408, nnz_per_row = 27.5294[0m
+[35m[DEBUG] newton decr: 30.5363[0m
+[35m[DEBUG] d.norm() = 1.22585[0m
+[32m[37m[TIMER] Line search took 0.62345s.[0m
+[32m[37m[TIMER] Solve took 0.00205521s.[0m
+[32m[37m[TIMER] Derivatives took 0.269794s.[0m
+[32m[37m[TIMER] Iteration took 0.976948s.[0m
+[35m[DEBUG] Final energy: 290.281[0m
+[32m[37m[TIMER] optimize took 1.05767s.[0m
+[32m[37m[TIMER] remeshing took 0.426065s.[0m
+[32mStarting iteration: 41[0m
+[35m[DEBUG] splits done[0m
+[35m[DEBUG] collapse done[0m
+[35m[DEBUG] Splits: 1[0m
+[35m[DEBUG] Collapses: 1[0m
+[35m[DEBUG] Flips: 1[0m
+[35m[DEBUG] #Vertices: 102[0m
+[32m[37m[TIMER] timer flip took 0.045046s.[0m
+[32m[37m[TIMER] timer collapse took 0.151184s.[0m
+[32m[37m[TIMER] timer_split took 0.165833s.[0m
+[35m[DEBUG] landmark_err = 9.96925e-05[0m
+[35m[DEBUG] Energy in iteration eval() 289.575[0m
+[32mComputing Newton step via direct solve. n = 408, nnz_per_row = 27.5294[0m
+[35m[DEBUG] newton decr: 28.257[0m
+[35m[DEBUG] d.norm() = 0.969438[0m
+[32m[37m[TIMER] Line search took 0.530255s.[0m
+[32m[37m[TIMER] Solve took 0.00214023s.[0m
+[32m[37m[TIMER] Derivatives took 0.252068s.[0m
+[32m[37m[TIMER] Iteration took 0.871087s.[0m
+[35m[DEBUG] Final energy: 286.681[0m
+[32m[37m[TIMER] optimize took 0.951488s.[0m
+[32m[37m[TIMER] remeshing took 0.405939s.[0m
+[32mStarting iteration: 42[0m
+[35m[DEBUG] splits done[0m
+[35m[DEBUG] collapse done[0m
+[35m[DEBUG] Splits: 0[0m
+[35m[DEBUG] Collapses: 0[0m
+[35m[DEBUG] Flips: 0[0m
+[35m[DEBUG] #Vertices: 102[0m
+[32m[37m[TIMER] timer flip took 0.0454315s.[0m
+[32m[37m[TIMER] timer collapse took 0.141799s.[0m
+[32m[37m[TIMER] timer_split took 0.175052s.[0m
+[35m[DEBUG] landmark_err = 9.96925e-05[0m
+[35m[DEBUG] Energy in iteration eval() 286.681[0m
+[32mComputing Newton step via direct solve. n = 408, nnz_per_row = 27.5294[0m
+[35m[DEBUG] newton decr: 24.1077[0m
+[35m[DEBUG] d.norm() = 1.02238[0m
+[32m[37m[TIMER] Line search took 0.60229s.[0m
+[32m[37m[TIMER] Solve took 0.00183182s.[0m
+[32m[37m[TIMER] Derivatives took 0.244536s.[0m
+[32m[37m[TIMER] Iteration took 0.934565s.[0m
+[35m[DEBUG] Final energy: 285.796[0m
+[32m[37m[TIMER] optimize took 1.01011s.[0m
+[32m[37m[TIMER] remeshing took 0.407294s.[0m
+[32mStarting iteration: 43[0m
+[35m[DEBUG] splits done[0m
+[35m[DEBUG] collapse done[0m
+[35m[DEBUG] Splits: 1[0m
+[35m[DEBUG] Collapses: 1[0m
+[35m[DEBUG] Flips: 2[0m
+[35m[DEBUG] #Vertices: 102[0m
+[32m[37m[TIMER] timer flip took 0.0555434s.[0m
+[32m[37m[TIMER] timer collapse took 0.150861s.[0m
+[32m[37m[TIMER] timer_split took 0.189754s.[0m
+[35m[DEBUG] landmark_err = 9.96925e-05[0m
+[35m[DEBUG] Energy in iteration eval() 285.739[0m
+[32mComputing Newton step via direct solve. n = 408, nnz_per_row = 27.5294[0m
+[35m[DEBUG] newton decr: 18.1026[0m
+[35m[DEBUG] d.norm() = 0.899212[0m
+[32m[37m[TIMER] Line search took 0.717876s.[0m
+[32m[37m[TIMER] Solve took 0.00226997s.[0m
+[32m[37m[TIMER] Derivatives took 0.300837s.[0m
+[32m[37m[TIMER] Iteration took 1.10682s.[0m
+[35m[DEBUG] Final energy: 285.101[0m
+[32m[37m[TIMER] optimize took 1.186s.[0m
+[32m[37m[TIMER] remeshing took 0.44074s.[0m
+[32mStarting iteration: 44[0m
+[35m[DEBUG] splits done[0m
+[35m[DEBUG] collapse done[0m
+[35m[DEBUG] Splits: 0[0m
+[35m[DEBUG] Collapses: 0[0m
+[35m[DEBUG] Flips: 0[0m
+[35m[DEBUG] #Vertices: 102[0m
+[32m[37m[TIMER] timer flip took 0.0504458s.[0m
+[32m[37m[TIMER] timer collapse took 0.143709s.[0m
+[32m[37m[TIMER] timer_split took 0.14861s.[0m
+[35m[DEBUG] landmark_err = 9.96925e-05[0m
+[35m[DEBUG] Energy in iteration eval() 285.101[0m
+[32mComputing Newton step via direct solve. n = 408, nnz_per_row = 27.5294[0m
+[35m[DEBUG] newton decr: 12.6158[0m
+[35m[DEBUG] d.norm() = 0.840966[0m
+[32m[37m[TIMER] Line search took 0.585305s.[0m
+[32m[37m[TIMER] Solve took 0.00177937s.[0m
+[32m[37m[TIMER] Derivatives took 0.267374s.[0m
+[32m[37m[TIMER] Iteration took 0.943029s.[0m
+[35m[DEBUG] Final energy: 284.645[0m
+[32m[37m[TIMER] optimize took 1.01648s.[0m
+[32m[37m[TIMER] remeshing took 0.394451s.[0m
+[32mStarting iteration: 45[0m
+[35m[DEBUG] splits done[0m
+[35m[DEBUG] collapse done[0m
+[35m[DEBUG] Splits: 0[0m
+[35m[DEBUG] Collapses: 0[0m
+[35m[DEBUG] Flips: 1[0m
+[35m[DEBUG] #Vertices: 102[0m
+[32m[37m[TIMER] timer flip took 0.064212s.[0m
+[32m[37m[TIMER] timer collapse took 0.141439s.[0m
+[32m[37m[TIMER] timer_split took 0.171561s.[0m
+[35m[DEBUG] landmark_err = 9.96925e-05[0m
+[35m[DEBUG] Energy in iteration eval() 284.631[0m
+[32mComputing Newton step via direct solve. n = 408, nnz_per_row = 27.5294[0m
+[35m[DEBUG] newton decr: 13.1377[0m
+[35m[DEBUG] d.norm() = 0.727586[0m
+[32m[37m[TIMER] Line search took 0.638852s.[0m
+[32m[37m[TIMER] Solve took 0.00224712s.[0m
+[32m[37m[TIMER] Derivatives took 0.254534s.[0m
+[32m[37m[TIMER] Iteration took 0.994581s.[0m
+[35m[DEBUG] Final energy: 283.927[0m
+[32m[37m[TIMER] optimize took 1.071s.[0m
+[32m[37m[TIMER] remeshing took 0.448301s.[0m
+[32mStarting iteration: 46[0m
+[35m[DEBUG] splits done[0m
+[35m[DEBUG] collapse done[0m
+[35m[DEBUG] Splits: 0[0m
+[35m[DEBUG] Collapses: 0[0m
+[35m[DEBUG] Flips: 0[0m
+[35m[DEBUG] #Vertices: 102[0m
+[32m[37m[TIMER] timer flip took 0.0494823s.[0m
+[32m[37m[TIMER] timer collapse took 0.144976s.[0m
+[32m[37m[TIMER] timer_split took 0.158972s.[0m
+[35m[DEBUG] landmark_err = 9.96925e-05[0m
+[35m[DEBUG] Energy in iteration eval() 283.927[0m
+[32mComputing Newton step via direct solve. n = 408, nnz_per_row = 27.5294[0m
+[35m[DEBUG] newton decr: 20.8325[0m
+[35m[DEBUG] d.norm() = 0.912776[0m
+[32m[37m[TIMER] Line search took 0.8399s.[0m
+[32m[37m[TIMER] Solve took 0.00173364s.[0m
+[32m[37m[TIMER] Derivatives took 0.232583s.[0m
+[32m[37m[TIMER] Iteration took 1.1621s.[0m
+[35m[DEBUG] Final energy: 283.809[0m
+[32m[37m[TIMER] optimize took 1.24076s.[0m
+[32m[37m[TIMER] remeshing took 0.398274s.[0m
+[32mStarting iteration: 47[0m
+[35m[DEBUG] splits done[0m
+[35m[DEBUG] collapse done[0m
+[35m[DEBUG] Splits: 0[0m
+[35m[DEBUG] Collapses: 0[0m
+[35m[DEBUG] Flips: 0[0m
+[35m[DEBUG] #Vertices: 102[0m
+[32m[37m[TIMER] timer flip took 0.0516473s.[0m
+[32m[37m[TIMER] timer collapse took 0.137039s.[0m
+[32m[37m[TIMER] timer_split took 0.16858s.[0m
+[35m[DEBUG] landmark_err = 9.96925e-05[0m
+[35m[DEBUG] Energy in iteration eval() 283.809[0m
+[32mComputing Newton step via direct solve. n = 408, nnz_per_row = 27.5294[0m
+[35m[DEBUG] newton decr: 12.7283[0m
+[35m[DEBUG] d.norm() = 0.700534[0m
+[32m[37m[TIMER] Line search took 0.575245s.[0m
+[32m[37m[TIMER] Solve took 0.00208748s.[0m
+[32m[37m[TIMER] Derivatives took 0.22203s.[0m
+[32m[37m[TIMER] Iteration took 0.888166s.[0m
+[35m[DEBUG] Final energy: 283.475[0m
+[32m[37m[TIMER] optimize took 0.979714s.[0m
+[32m[37m[TIMER] remeshing took 0.412133s.[0m
+[32mStarting iteration: 48[0m
+[35m[DEBUG] splits done[0m
+[35m[DEBUG] collapse done[0m
+[35m[DEBUG] Splits: 0[0m
+[35m[DEBUG] Collapses: 0[0m
+[35m[DEBUG] Flips: 0[0m
+[35m[DEBUG] #Vertices: 102[0m
+[32m[37m[TIMER] timer flip took 0.0532283s.[0m
+[32m[37m[TIMER] timer collapse took 0.137236s.[0m
+[32m[37m[TIMER] timer_split took 0.173515s.[0m
+[35m[DEBUG] landmark_err = 9.96925e-05[0m
+[35m[DEBUG] Energy in iteration eval() 283.475[0m
+[32mComputing Newton step via direct solve. n = 408, nnz_per_row = 27.5294[0m
+[35m[DEBUG] newton decr: 27.0447[0m
+[35m[DEBUG] d.norm() = 0.898511[0m
+[32m[37m[TIMER] Line search took 0.621513s.[0m
+[32m[37m[TIMER] Solve took 0.00183494s.[0m
+[32m[37m[TIMER] Derivatives took 0.227578s.[0m
+[32m[37m[TIMER] Iteration took 0.937567s.[0m
+[35m[DEBUG] Final energy: 283.261[0m
+[32m[37m[TIMER] optimize took 1.01388s.[0m
+[32m[37m[TIMER] remeshing took 0.412755s.[0m
+[32mStarting iteration: 49[0m
+[35m[DEBUG] splits done[0m
+[35m[DEBUG] collapse done[0m
+[35m[DEBUG] Splits: 0[0m
+[35m[DEBUG] Collapses: 0[0m
+[35m[DEBUG] Flips: 0[0m
+[35m[DEBUG] #Vertices: 102[0m
+[32m[37m[TIMER] timer flip took 0.0456596s.[0m
+[32m[37m[TIMER] timer collapse took 0.135442s.[0m
+[32m[37m[TIMER] timer_split took 0.157835s.[0m
+[35m[DEBUG] landmark_err = 9.96925e-05[0m
+[35m[DEBUG] Energy in iteration eval() 283.261[0m
+[32mComputing Newton step via direct solve. n = 408, nnz_per_row = 27.5294[0m
+[35m[DEBUG] newton decr: 23.1157[0m
+[35m[DEBUG] d.norm() = 0.947461[0m
+[32m[37m[TIMER] Line search took 1.43795s.[0m
+[32m[37m[TIMER] Solve took 0.00213498s.[0m
+[32m[37m[TIMER] Derivatives took 0.283939s.[0m
+[32m[37m[TIMER] Iteration took 1.80943s.[0m
+[35m[DEBUG] Final energy: 283.257[0m
+[32m[37m[TIMER] optimize took 1.88556s.[0m
+[32m[37m[TIMER] remeshing took 0.381747s.[0m
+[32mStarting iteration: 50[0m
+[35m[DEBUG] splits done[0m
+[35m[DEBUG] collapse done[0m
+[35m[DEBUG] Splits: 0[0m
+[35m[DEBUG] Collapses: 0[0m
+[35m[DEBUG] Flips: 0[0m
+[35m[DEBUG] #Vertices: 102[0m
+[32m[37m[TIMER] timer flip took 0.051282s.[0m
+[32m[37m[TIMER] timer collapse took 0.13105s.[0m
+[32m[37m[TIMER] timer_split took 0.197644s.[0m
+[35m[DEBUG] landmark_err = 9.96925e-05[0m
+[35m[DEBUG] Energy in iteration eval() 283.257[0m
+[32mComputing Newton step via direct solve. n = 408, nnz_per_row = 27.5294[0m
+[35m[DEBUG] newton decr: 16.7375[0m
+[35m[DEBUG] d.norm() = 0.926586[0m
+[32m[37m[TIMER] Line search took 0.50208s.[0m
+[32m[37m[TIMER] Solve took 0.00215093s.[0m
+[32m[37m[TIMER] Derivatives took 0.265979s.[0m
+[32m[37m[TIMER] Iteration took 0.858335s.[0m
+[35m[DEBUG] Final energy: 281.748[0m
+[32m[37m[TIMER] optimize took 0.93073s.[0m
+[32m[37m[TIMER] remeshing took 0.427637s.[0m
+[32mStarting iteration: 51[0m
+[35m[DEBUG] splits done[0m
+[35m[DEBUG] collapse done[0m
+[35m[DEBUG] Splits: 1[0m
+[35m[DEBUG] Collapses: 0[0m
+[35m[DEBUG] Flips: 1[0m
+[35m[DEBUG] #Vertices: 103[0m
+[32m[37m[TIMER] timer flip took 0.049024s.[0m
+[32m[37m[TIMER] timer collapse took 0.1341s.[0m
+[32m[37m[TIMER] timer_split took 0.161627s.[0m
+[35m[DEBUG] landmark_err = 9.96925e-05[0m
+[35m[DEBUG] Energy in iteration eval() 281.747[0m
+[32mComputing Newton step via direct solve. n = 412, nnz_per_row = 27.534[0m
+[35m[DEBUG] newton decr: 27.2664[0m
+[35m[DEBUG] d.norm() = 1.78777[0m
+[32m[37m[TIMER] Line search took 1.65373s.[0m
+[32m[37m[TIMER] Solve took 0.00201068s.[0m
+[32m[37m[TIMER] Derivatives took 0.296598s.[0m
+[32m[37m[TIMER] Iteration took 2.04654s.[0m
+[35m[DEBUG] Final energy: 281.747[0m
+[32m[37m[TIMER] optimize took 2.12191s.[0m
+[32m[37m[TIMER] remeshing took 0.38871s.[0m
+[32mStarting iteration: 52[0m
+[35m[DEBUG] splits done[0m
+[35m[DEBUG] collapse done[0m
+[35m[DEBUG] Splits: 0[0m
+[35m[DEBUG] Collapses: 0[0m
+[35m[DEBUG] Flips: 0[0m
+[35m[DEBUG] #Vertices: 103[0m
+[32m[37m[TIMER] timer flip took 0.0508631s.[0m
+[32m[37m[TIMER] timer collapse took 0.134171s.[0m
+[32m[37m[TIMER] timer_split took 0.197974s.[0m
+[35m[DEBUG] landmark_err = 9.96925e-05[0m
+[35m[DEBUG] Energy in iteration eval() 281.747[0m
+[32mComputing Newton step via direct solve. n = 412, nnz_per_row = 27.534[0m
+[35m[DEBUG] newton decr: 18.0418[0m
+[35m[DEBUG] d.norm() = 1.06263[0m
+[32m[37m[TIMER] Line search took 0.915092s.[0m
+[32m[37m[TIMER] Solve took 0.00201435s.[0m
+[32m[37m[TIMER] Derivatives took 0.285951s.[0m
+[32m[37m[TIMER] Iteration took 1.28812s.[0m
+[35m[DEBUG] Final energy: 281.581[0m
+[32m[37m[TIMER] optimize took 1.36076s.[0m
+[32m[37m[TIMER] remeshing took 0.444579s.[0m
+[32mStarting iteration: 53[0m
+[35m[DEBUG] splits done[0m
+[35m[DEBUG] collapse done[0m
+[35m[DEBUG] Splits: 0[0m
+[35m[DEBUG] Collapses: 0[0m
+[35m[DEBUG] Flips: 0[0m
+[35m[DEBUG] #Vertices: 103[0m
+[32m[37m[TIMER] timer flip took 0.0442906s.[0m
+[32m[37m[TIMER] timer collapse took 0.139407s.[0m
+[32m[37m[TIMER] timer_split took 0.166762s.[0m
+[35m[DEBUG] landmark_err = 9.96925e-05[0m
+[35m[DEBUG] Energy in iteration eval() 281.581[0m
+[32mComputing Newton step via direct solve. n = 412, nnz_per_row = 27.534[0m
+[35m[DEBUG] newton decr: 18.898[0m
+[35m[DEBUG] d.norm() = 1.05438[0m
+[32m[37m[TIMER] Line search took 0.492014s.[0m
+[32m[37m[TIMER] Solve took 0.00228623s.[0m
+[32m[37m[TIMER] Derivatives took 0.211706s.[0m
+[32m[37m[TIMER] Iteration took 0.792915s.[0m
+[35m[DEBUG] Final energy: 281.237[0m
+[32m[37m[TIMER] optimize took 0.873837s.[0m
+[32m[37m[TIMER] remeshing took 0.39551s.[0m
+[32mStarting iteration: 54[0m
+[35m[DEBUG] splits done[0m
+[35m[DEBUG] collapse done[0m
+[35m[DEBUG] Splits: 1[0m
+[35m[DEBUG] Collapses: 1[0m
+[35m[DEBUG] Flips: 0[0m
+[35m[DEBUG] #Vertices: 103[0m
+[32m[37m[TIMER] timer flip took 0.0493738s.[0m
+[32m[37m[TIMER] timer collapse took 0.143481s.[0m
+[32m[37m[TIMER] timer_split took 0.174934s.[0m
+[35m[DEBUG] landmark_err = 9.96925e-05[0m
+[35m[DEBUG] Energy in iteration eval() 281.222[0m
+[32mComputing Newton step via direct solve. n = 412, nnz_per_row = 27.534[0m
+[35m[DEBUG] newton decr: 17.8457[0m
+[35m[DEBUG] d.norm() = 1.21237[0m
+[32m[37m[TIMER] Line search took 1.14043s.[0m
+[32m[37m[TIMER] Solve took 0.00223098s.[0m
+[32m[37m[TIMER] Derivatives took 0.221378s.[0m
+[32m[37m[TIMER] Iteration took 1.45134s.[0m
+[35m[DEBUG] Final energy: 281.197[0m
+[32m[37m[TIMER] optimize took 1.52673s.[0m
+[32m[37m[TIMER] remeshing took 0.412612s.[0m
+[32mStarting iteration: 55[0m
+[35m[DEBUG] splits done[0m
+[35m[DEBUG] collapse done[0m
+[35m[DEBUG] Splits: 1[0m
+[35m[DEBUG] Collapses: 0[0m
+[35m[DEBUG] Flips: 1[0m
+[35m[DEBUG] #Vertices: 104[0m
+[32m[37m[TIMER] timer flip took 0.0450791s.[0m
+[32m[37m[TIMER] timer collapse took 0.133405s.[0m
+[32m[37m[TIMER] timer_split took 0.164008s.[0m
+[35m[DEBUG] landmark_err = 9.96925e-05[0m
+[35m[DEBUG] Energy in iteration eval() 281.181[0m
+[32mComputing Newton step via direct solve. n = 416, nnz_per_row = 27.5385[0m
+[35m[DEBUG] newton decr: 16.5386[0m
+[35m[DEBUG] d.norm() = 1.15638[0m
+[32m[37m[TIMER] Line search took 0.538464s.[0m
+[32m[37m[TIMER] Solve took 0.00226208s.[0m
+[32m[37m[TIMER] Derivatives took 0.222522s.[0m
+[32m[37m[TIMER] Iteration took 0.849853s.[0m
+[35m[DEBUG] Final energy: 279.517[0m
+[32m[37m[TIMER] optimize took 0.922782s.[0m
+[32m[37m[TIMER] remeshing took 0.385703s.[0m
+[32mStarting iteration: 56[0m
+[35m[DEBUG] splits done[0m
+[35m[DEBUG] collapse done[0m
+[35m[DEBUG] Splits: 0[0m
+[35m[DEBUG] Collapses: 0[0m
+[35m[DEBUG] Flips: 1[0m
+[35m[DEBUG] #Vertices: 104[0m
+[32m[37m[TIMER] timer flip took 0.0471097s.[0m
+[32m[37m[TIMER] timer collapse took 0.129603s.[0m
+[32m[37m[TIMER] timer_split took 0.174019s.[0m
+[35m[DEBUG] landmark_err = 9.96925e-05[0m
+[35m[DEBUG] Energy in iteration eval() 279.515[0m
+[32mComputing Newton step via direct solve. n = 416, nnz_per_row = 27.5385[0m
+[35m[DEBUG] newton decr: 22.4386[0m
+[35m[DEBUG] d.norm() = 1.22001[0m
+[32m[37m[TIMER] Line search took 1.62527s.[0m
+[32m[37m[TIMER] Solve took 0.00231058s.[0m
+[32m[37m[TIMER] Derivatives took 0.252928s.[0m
+[32m[37m[TIMER] Iteration took 1.96687s.[0m
+[35m[DEBUG] Final energy: 279.511[0m
+[32m[37m[TIMER] optimize took 2.04034s.[0m
+[32m[37m[TIMER] remeshing took 0.409396s.[0m
+[32mStarting iteration: 57[0m
+[35m[DEBUG] splits done[0m
+[35m[DEBUG] collapse done[0m
+[35m[DEBUG] Splits: 0[0m
+[35m[DEBUG] Collapses: 0[0m
+[35m[DEBUG] Flips: 0[0m
+[35m[DEBUG] #Vertices: 104[0m
+[32m[37m[TIMER] timer flip took 0.0446234s.[0m
+[32m[37m[TIMER] timer collapse took 0.130091s.[0m
+[32m[37m[TIMER] timer_split took 0.165091s.[0m
+[35m[DEBUG] landmark_err = 9.96925e-05[0m
+[35m[DEBUG] Energy in iteration eval() 279.511[0m
+[32mComputing Newton step via direct solve. n = 416, nnz_per_row = 27.5385[0m
+[35m[DEBUG] newton decr: 17.7207[0m
+[35m[DEBUG] d.norm() = 1.07444[0m
+[32m[37m[TIMER] Line search took 1.28392s.[0m
+[32m[37m[TIMER] Solve took 0.00214077s.[0m
+[32m[37m[TIMER] Derivatives took 0.249416s.[0m
+[32m[37m[TIMER] Iteration took 1.6195s.[0m
+[35m[DEBUG] Final energy: 279.498[0m
+[32m[37m[TIMER] optimize took 1.68952s.[0m
+[32m[37m[TIMER] remeshing took 0.383851s.[0m
+[32mStarting iteration: 58[0m
+[35m[DEBUG] splits done[0m
+[35m[DEBUG] collapse done[0m
+[35m[DEBUG] Splits: 0[0m
+[35m[DEBUG] Collapses: 0[0m
+[35m[DEBUG] Flips: 0[0m
+[35m[DEBUG] #Vertices: 104[0m
+[32m[37m[TIMER] timer flip took 0.0442584s.[0m
+[32m[37m[TIMER] timer collapse took 0.130844s.[0m
+[32m[37m[TIMER] timer_split took 0.167151s.[0m
+[35m[DEBUG] landmark_err = 9.96925e-05[0m
+[35m[DEBUG] Energy in iteration eval() 279.498[0m
+[32mComputing Newton step via direct solve. n = 416, nnz_per_row = 27.5385[0m
+[35m[DEBUG] newton decr: 17.6636[0m
+[35m[DEBUG] d.norm() = 1.09952[0m
+[32m[37m[TIMER] Line search took 1.26341s.[0m
+[32m[37m[TIMER] Solve took 0.0019487s.[0m
+[32m[37m[TIMER] Derivatives took 0.224161s.[0m
+[32m[37m[TIMER] Iteration took 1.57754s.[0m
+[35m[DEBUG] Final energy: 279.482[0m
+[32m[37m[TIMER] optimize took 1.66048s.[0m
+[32m[37m[TIMER] remeshing took 0.401446s.[0m
+[32mStarting iteration: 59[0m
+[35m[DEBUG] splits done[0m
+[35m[DEBUG] collapse done[0m
+[35m[DEBUG] Splits: 0[0m
+[35m[DEBUG] Collapses: 0[0m
+[35m[DEBUG] Flips: 0[0m
+[35m[DEBUG] #Vertices: 104[0m
+[32m[37m[TIMER] timer flip took 0.0451237s.[0m
+[32m[37m[TIMER] timer collapse took 0.131389s.[0m
+[32m[37m[TIMER] timer_split took 0.16586s.[0m
+[35m[DEBUG] landmark_err = 9.96925e-05[0m
+[35m[DEBUG] Energy in iteration eval() 279.482[0m
+[32mComputing Newton step via direct solve. n = 416, nnz_per_row = 27.5385[0m
+[35m[DEBUG] newton decr: 64.2316[0m
+[35m[DEBUG] d.norm() = 1.33909[0m
+[32m[37m[TIMER] Line search took 2.19865s.[0m
+[32m[37m[TIMER] Solve took 0.00171504s.[0m
+[32m[37m[TIMER] Derivatives took 0.218741s.[0m
+[32m[37m[TIMER] Iteration took 2.50627s.[0m
+[35m[DEBUG] Final energy: 279.482[0m
+[32m[37m[TIMER] optimize took 2.599s.[0m
+[32m[37m[TIMER] remeshing took 0.384766s.[0m
+[32mStarting iteration: 60[0m
+[35m[DEBUG] splits done[0m
+[35m[DEBUG] collapse done[0m
+[35m[DEBUG] Splits: 0[0m
+[35m[DEBUG] Collapses: 0[0m
+[35m[DEBUG] Flips: 0[0m
+[35m[DEBUG] #Vertices: 104[0m
+[32m[37m[TIMER] timer flip took 0.0482179s.[0m
+[32m[37m[TIMER] timer collapse took 0.127853s.[0m
+[32m[37m[TIMER] timer_split took 0.160592s.[0m
+[35m[DEBUG] landmark_err = 9.96925e-05[0m
+[35m[DEBUG] Energy in iteration eval() 279.482[0m
+[32mComputing Newton step via direct solve. n = 416, nnz_per_row = 27.5385[0m
+[35m[DEBUG] newton decr: 16.9483[0m
+[35m[DEBUG] d.norm() = 0.936001[0m
+[32m[37m[TIMER] Line search took 0.492892s.[0m
+[32m[37m[TIMER] Solve took 0.00231505s.[0m
+[32m[37m[TIMER] Derivatives took 0.234672s.[0m
+[32m[37m[TIMER] Iteration took 0.827957s.[0m
+[35m[DEBUG] Final energy: 277.925[0m
+[32m[37m[TIMER] optimize took 0.895498s.[0m
+[32m[37m[TIMER] remeshing took 0.382139s.[0m
+[32mStarting iteration: 61[0m
+[35m[DEBUG] splits done[0m
+[35m[DEBUG] collapse done[0m
+[35m[DEBUG] Splits: 0[0m
+[35m[DEBUG] Collapses: 0[0m
+[35m[DEBUG] Flips: 0[0m
+[35m[DEBUG] #Vertices: 104[0m
+[32m[37m[TIMER] timer flip took 0.0499315s.[0m
+[32m[37m[TIMER] timer collapse took 0.127037s.[0m
+[32m[37m[TIMER] timer_split took 0.193009s.[0m
+[35m[DEBUG] landmark_err = 9.96925e-05[0m
+[35m[DEBUG] Energy in iteration eval() 277.925[0m
+[32mComputing Newton step via direct solve. n = 416, nnz_per_row = 27.5385[0m
+[35m[DEBUG] newton decr: 12.664[0m
+[35m[DEBUG] d.norm() = 0.977123[0m
+[32m[37m[TIMER] Line search took 0.434248s.[0m
+[32m[37m[TIMER] Solve took 0.00183839s.[0m
+[32m[37m[TIMER] Derivatives took 0.245883s.[0m
+[32m[37m[TIMER] Iteration took 0.768819s.[0m
+[35m[DEBUG] Final energy: 277.036[0m
+[32m[37m[TIMER] optimize took 0.857225s.[0m
+[32m[37m[TIMER] remeshing took 0.430759s.[0m
+[32mStarting iteration: 62[0m
+[35m[DEBUG] splits done[0m
+[35m[DEBUG] collapse done[0m
+[35m[DEBUG] Splits: 2[0m
+[35m[DEBUG] Collapses: 1[0m
+[35m[DEBUG] Flips: 4[0m
+[35m[DEBUG] #Vertices: 105[0m
+[32m[37m[TIMER] timer flip took 0.0535735s.[0m
+[32m[37m[TIMER] timer collapse took 0.147902s.[0m
+[32m[37m[TIMER] timer_split took 0.204035s.[0m
+[35m[DEBUG] landmark_err = 9.96925e-05[0m
+[35m[DEBUG] Energy in iteration eval() 277.015[0m
+[32mComputing Newton step via direct solve. n = 420, nnz_per_row = 27.5429[0m
+[35m[DEBUG] newton decr: 57.3794[0m
+[35m[DEBUG] d.norm() = 1.91375[0m
+[32m[37m[TIMER] Line search took 1.32893s.[0m
+[32m[37m[TIMER] Solve took 0.0018717s.[0m
+[32m[37m[TIMER] Derivatives took 0.276774s.[0m
+[32m[37m[TIMER] Iteration took 1.70364s.[0m
+[35m[DEBUG] Final energy: 276.979[0m
+[32m[37m[TIMER] optimize took 1.8123s.[0m
+[32m[37m[TIMER] remeshing took 0.451726s.[0m
+[32mStarting iteration: 63[0m
+[35m[DEBUG] splits done[0m
+[35m[DEBUG] collapse done[0m
+[35m[DEBUG] Splits: 1[0m
+[35m[DEBUG] Collapses: 0[0m
+[35m[DEBUG] Flips: 3[0m
+[35m[DEBUG] #Vertices: 106[0m
+[32m[37m[TIMER] timer flip took 0.0476401s.[0m
+[32m[37m[TIMER] timer collapse took 0.134828s.[0m
+[32m[37m[TIMER] timer_split took 0.180086s.[0m
+[35m[DEBUG] landmark_err = 9.96925e-05[0m
+[35m[DEBUG] Energy in iteration eval() 276.917[0m
+[32mComputing Newton step via direct solve. n = 424, nnz_per_row = 27.5472[0m
+[35m[DEBUG] newton decr: 56.7945[0m
+[35m[DEBUG] d.norm() = 1.85436[0m
+[32m[37m[TIMER] Line search took 0.71855s.[0m
+[32m[37m[TIMER] Solve took 0.00194723s.[0m
+[32m[37m[TIMER] Derivatives took 0.274466s.[0m
+[32m[37m[TIMER] Iteration took 1.084s.[0m
+[35m[DEBUG] Final energy: 274.632[0m
+[32m[37m[TIMER] optimize took 1.16118s.[0m
+[32m[37m[TIMER] remeshing took 0.406517s.[0m
+[32mStarting iteration: 64[0m
+[35m[DEBUG] splits done[0m
+[35m[DEBUG] collapse done[0m
+[35m[DEBUG] Splits: 1[0m
+[35m[DEBUG] Collapses: 0[0m
+[35m[DEBUG] Flips: 0[0m
+[35m[DEBUG] #Vertices: 107[0m
+[32m[37m[TIMER] timer flip took 0.0490347s.[0m
+[32m[37m[TIMER] timer collapse took 0.134757s.[0m
+[32m[37m[TIMER] timer_split took 0.17248s.[0m
+[35m[DEBUG] landmark_err = 9.96925e-05[0m
+[35m[DEBUG] Energy in iteration eval() 274.571[0m
+[32mComputing Newton step via direct solve. n = 428, nnz_per_row = 27.5514[0m
+[35m[DEBUG] newton decr: 40.2416[0m
+[35m[DEBUG] d.norm() = 1.37536[0m
+[32m[37m[TIMER] Line search took 1.01446s.[0m
+[32m[37m[TIMER] Solve took 0.0020222s.[0m
+[32m[37m[TIMER] Derivatives took 0.237211s.[0m
+[32m[37m[TIMER] Iteration took 1.35187s.[0m
+[35m[DEBUG] Final energy: 274.279[0m
+[32m[37m[TIMER] optimize took 1.43492s.[0m
+[32m[37m[TIMER] remeshing took 0.403276s.[0m
+[32mStarting iteration: 65[0m
+[35m[DEBUG] splits done[0m
+[35m[DEBUG] collapse done[0m
+[35m[DEBUG] Splits: 1[0m
+[35m[DEBUG] Collapses: 1[0m
+[35m[DEBUG] Flips: 1[0m
+[35m[DEBUG] #Vertices: 107[0m
+[32m[37m[TIMER] timer flip took 0.0494445s.[0m
+[32m[37m[TIMER] timer collapse took 0.1471s.[0m
+[32m[37m[TIMER] timer_split took 0.193735s.[0m
+[35m[DEBUG] landmark_err = 9.96925e-05[0m
+[35m[DEBUG] Energy in iteration eval() 274.246[0m
+[32mComputing Newton step via direct solve. n = 428, nnz_per_row = 27.5514[0m
+[35m[DEBUG] newton decr: 37.4033[0m
+[35m[DEBUG] d.norm() = 1.32909[0m
+[32m[37m[TIMER] Line search took 0.612585s.[0m
+[32m[37m[TIMER] Solve took 0.00240881s.[0m
+[32m[37m[TIMER] Derivatives took 0.331219s.[0m
+[32m[37m[TIMER] Iteration took 1.03916s.[0m
+[35m[DEBUG] Final energy: 273.668[0m
+[32m[37m[TIMER] optimize took 1.11688s.[0m
+[32m[37m[TIMER] remeshing took 0.432525s.[0m
+[32mStarting iteration: 66[0m
+[35m[DEBUG] splits done[0m
+[35m[DEBUG] collapse done[0m
+[35m[DEBUG] Splits: 0[0m
+[35m[DEBUG] Collapses: 0[0m
+[35m[DEBUG] Flips: 1[0m
+[35m[DEBUG] #Vertices: 107[0m
+[32m[37m[TIMER] timer flip took 0.0461284s.[0m
+[32m[37m[TIMER] timer collapse took 0.134471s.[0m
+[32m[37m[TIMER] timer_split took 0.178672s.[0m
+[35m[DEBUG] landmark_err = 9.96925e-05[0m
+[35m[DEBUG] Energy in iteration eval() 273.657[0m
+[32mComputing Newton step via direct solve. n = 428, nnz_per_row = 27.5514[0m
+[35m[DEBUG] newton decr: 22.98[0m
+[35m[DEBUG] d.norm() = 0.938224[0m
+[32m[37m[TIMER] Line search took 0.625884s.[0m
+[32m[37m[TIMER] Solve took 0.00191459s.[0m
+[32m[37m[TIMER] Derivatives took 0.262904s.[0m
+[32m[37m[TIMER] Iteration took 0.978454s.[0m
+[35m[DEBUG] Final energy: 272.798[0m
+[32m[37m[TIMER] optimize took 1.05512s.[0m
+[32m[37m[TIMER] remeshing took 0.405251s.[0m
+[32mStarting iteration: 67[0m
+[35m[DEBUG] splits done[0m
+[35m[DEBUG] collapse done[0m
+[35m[DEBUG] Splits: 1[0m
+[35m[DEBUG] Collapses: 0[0m
+[35m[DEBUG] Flips: 1[0m
+[35m[DEBUG] #Vertices: 108[0m
+[32m[37m[TIMER] timer flip took 0.0522794s.[0m
+[32m[37m[TIMER] timer collapse took 0.132131s.[0m
+[32m[37m[TIMER] timer_split took 0.192611s.[0m
+[35m[DEBUG] landmark_err = 9.96925e-05[0m
+[35m[DEBUG] Energy in iteration eval() 272.788[0m
+[32mComputing Newton step via direct solve. n = 432, nnz_per_row = 27.5556[0m
+[35m[DEBUG] newton decr: 176.673[0m
+[35m[DEBUG] d.norm() = 2.48107[0m
+[32m[37m[TIMER] Line search took 1.76153s.[0m
+[32m[37m[TIMER] Solve took 0.00233981s.[0m
+[32m[37m[TIMER] Derivatives took 0.235708s.[0m
+[32m[37m[TIMER] Iteration took 2.09292s.[0m
+[35m[DEBUG] Final energy: 272.778[0m
+[32m[37m[TIMER] optimize took 2.17671s.[0m
+[32m[37m[TIMER] remeshing took 0.422528s.[0m
+[32mStarting iteration: 68[0m
+[35m[DEBUG] splits done[0m
+[35m[DEBUG] collapse done[0m
+[35m[DEBUG] Splits: 0[0m
+[35m[DEBUG] Collapses: 0[0m
+[35m[DEBUG] Flips: 0[0m
+[35m[DEBUG] #Vertices: 108[0m
+[32m[37m[TIMER] timer flip took 0.0489351s.[0m
+[32m[37m[TIMER] timer collapse took 0.1365s.[0m
+[32m[37m[TIMER] timer_split took 0.174545s.[0m
+[35m[DEBUG] landmark_err = 9.96925e-05[0m
+[35m[DEBUG] Energy in iteration eval() 272.778[0m
+[32mComputing Newton step via direct solve. n = 432, nnz_per_row = 27.5556[0m
+[35m[DEBUG] newton decr: 16.8228[0m
+[35m[DEBUG] d.norm() = 0.894702[0m
+[32m[37m[TIMER] Line search took 0.685671s.[0m
+[32m[37m[TIMER] Solve took 0.0019478s.[0m
+[32m[37m[TIMER] Derivatives took 0.217734s.[0m
+[32m[37m[TIMER] Iteration took 0.990096s.[0m
+[35m[DEBUG] Final energy: 272.168[0m
+[32m[37m[TIMER] optimize took 1.07401s.[0m
+[32m[37m[TIMER] remeshing took 0.406744s.[0m
+[32mStarting iteration: 69[0m
+[35m[DEBUG] splits done[0m
+[35m[DEBUG] collapse done[0m
+[35m[DEBUG] Splits: 0[0m
+[35m[DEBUG] Collapses: 0[0m
+[35m[DEBUG] Flips: 0[0m
+[35m[DEBUG] #Vertices: 108[0m
+[32m[37m[TIMER] timer flip took 0.0544915s.[0m
+[32m[37m[TIMER] timer collapse took 0.146335s.[0m
+[32m[37m[TIMER] timer_split took 0.18536s.[0m
+[35m[DEBUG] landmark_err = 9.96925e-05[0m
+[35m[DEBUG] Energy in iteration eval() 272.168[0m
+[32mComputing Newton step via direct solve. n = 432, nnz_per_row = 27.5556[0m
+[35m[DEBUG] newton decr: 11.0813[0m
+[35m[DEBUG] d.norm() = 0.811595[0m
+[32m[37m[TIMER] Line search took 0.626224s.[0m
+[32m[37m[TIMER] Solve took 0.00233353s.[0m
+[32m[37m[TIMER] Derivatives took 0.298082s.[0m
+[32m[37m[TIMER] Iteration took 1.02979s.[0m
+[35m[DEBUG] Final energy: 271.515[0m
+[32m[37m[TIMER] optimize took 1.1095s.[0m
+[32m[37m[TIMER] remeshing took 0.431294s.[0m
+[23:20:44][Info] Saved screenshot as /mnt/c/Users/Karanvir Singh/Downloads/surface-maps-via-adaptive-triangulations/build/output/coarse_to_fine/screenshots/02_after_coarse_A.png
+[23:20:51][Info] Saved screenshot as /mnt/c/Users/Karanvir Singh/Downloads/surface-maps-via-adaptive-triangulations/build/output/coarse_to_fine/screenshots/02_after_coarse_B.png
+[23:20:56][Info] Saved screenshot as /mnt/c/Users/Karanvir Singh/Downloads/surface-maps-via-adaptive-triangulations/build/output/coarse_to_fine/screenshots/02_after_coarse_A_wire.png
+[23:21:01][Info] Saved screenshot as /mnt/c/Users/Karanvir Singh/Downloads/surface-maps-via-adaptive-triangulations/build/output/coarse_to_fine/screenshots/02_after_coarse_B_wire.png
+[32m#################### Starting Fine Phase ####################[0m
+[32mBuilding BSP tree[0m
+[32m[37m[TIMER] Building BSP tree took 0.00274933s.[0m
+[32mBuilding BSP tree[0m
+[32m[37m[TIMER] Building BSP tree took 0.00245833s.[0m
+[32m[37m[TIMER] Initial vertex assignment took 0.132614s.[0m
+[32mStarting iteration: 0[0m
+[35m[DEBUG] splits done[0m
+[35m[DEBUG] collapse done[0m
+[35m[DEBUG] Splits: 128[0m
+[35m[DEBUG] Collapses: 37[0m
+[35m[DEBUG] Flips: 69[0m
+[35m[DEBUG] #Vertices: 199[0m
+[32m[37m[TIMER] timer flip took 0.140049s.[0m
+[32m[37m[TIMER] timer collapse took 0.374385s.[0m
+[32m[37m[TIMER] timer_split took 0.400107s.[0m
+[35m[DEBUG] landmark_err = 9.96925e-05[0m
+[35m[DEBUG] Energy in iteration eval() 8518.21[0m
+[32mComputing Newton step via direct solve. n = 796, nnz_per_row = 27.7588[0m
+[35m[DEBUG] newton decr: 2161.61[0m
+[35m[DEBUG] d.norm() = 6.07442[0m
+[32m[37m[TIMER] Line search took 1.50119s.[0m
+[32m[37m[TIMER] Solve took 0.00386049s.[0m
+[32m[37m[TIMER] Derivatives took 0.234866s.[0m
+[32m[37m[TIMER] Iteration took 1.80136s.[0m
+[35m[DEBUG] Final energy: 8517.82[0m
+[32m[37m[TIMER] optimize took 1.8488s.[0m
+[32m[37m[TIMER] remeshing took 0.946001s.[0m
+[32mStarting iteration: 1[0m
+[35m[DEBUG] splits done[0m
+[35m[DEBUG] collapse done[0m
+[35m[DEBUG] Splits: 200[0m
+[35m[DEBUG] Collapses: 64[0m
+[35m[DEBUG] Flips: 111[0m
+[35m[DEBUG] #Vertices: 335[0m
+[32m[37m[TIMER] timer flip took 0.129901s.[0m
+[32m[37m[TIMER] timer collapse took 0.450296s.[0m
+[32m[37m[TIMER] timer_split took 0.329696s.[0m
+[35m[DEBUG] landmark_err = 9.96925e-05[0m
+[35m[DEBUG] Energy in iteration eval() 5439.03[0m
+[32mComputing Newton step via direct solve. n = 1340, nnz_per_row = 27.8567[0m
+[35m[DEBUG] newton decr: 2945.86[0m
+[35m[DEBUG] d.norm() = 8.23162[0m
+[32m[37m[TIMER] Line search took 1.87621s.[0m
+[32m[37m[TIMER] Solve took 0.00648993s.[0m
+[32m[37m[TIMER] Derivatives took 0.212251s.[0m
+[32m[37m[TIMER] Iteration took 2.15045s.[0m
+[35m[DEBUG] Final energy: 5439.01[0m
+[32m[37m[TIMER] optimize took 2.19231s.[0m
+[32m[37m[TIMER] remeshing took 0.955424s.[0m
+[32mStarting iteration: 2[0m
+[35m[DEBUG] splits done[0m
+[35m[DEBUG] collapse done[0m
+[35m[DEBUG] Splits: 329[0m
+[35m[DEBUG] Collapses: 100[0m
+[35m[DEBUG] Flips: 184[0m
+[35m[DEBUG] #Vertices: 564[0m
+[32m[37m[TIMER] timer flip took 0.134233s.[0m
+[32m[37m[TIMER] timer collapse took 0.563278s.[0m
+[32m[37m[TIMER] timer_split took 0.345836s.[0m
+[35m[DEBUG] landmark_err = 9.96925e-05[0m
+[35m[DEBUG] Energy in iteration eval() 2237.48[0m
+[32mComputing Newton step via direct solve. n = 2256, nnz_per_row = 27.9149[0m
+[35m[DEBUG] newton decr: 785.067[0m
+[35m[DEBUG] d.norm() = 8.80898[0m
+[32m[37m[TIMER] Line search took 2.04094s.[0m
+[32m[37m[TIMER] Solve took 0.0110734s.[0m
+[32m[37m[TIMER] Derivatives took 0.272335s.[0m
+[32m[37m[TIMER] Iteration took 2.38578s.[0m
+[35m[DEBUG] Final energy: 2237.45[0m
+[32m[37m[TIMER] optimize took 2.43787s.[0m
+[32m[37m[TIMER] remeshing took 1.08541s.[0m
+[32mStarting iteration: 3[0m
+[35m[DEBUG] splits done[0m
+[35m[DEBUG] collapse done[0m
+[35m[DEBUG] Splits: 517[0m
+[35m[DEBUG] Collapses: 129[0m
+[35m[DEBUG] Flips: 266[0m
+[35m[DEBUG] #Vertices: 952[0m
+[32m[37m[TIMER] timer flip took 0.173167s.[0m
+[32m[37m[TIMER] timer collapse took 0.680545s.[0m
+[32m[37m[TIMER] timer_split took 0.379961s.[0m
+[35m[DEBUG] landmark_err = 9.96925e-05[0m
+[35m[DEBUG] Energy in iteration eval() 991.651[0m
+[32mComputing Newton step via direct solve. n = 3808, nnz_per_row = 27.9496[0m
+[35m[DEBUG] newton decr: 1375.29[0m
+[35m[DEBUG] d.norm() = 8.2712[0m
+[32m[37m[TIMER] Line search took 2.41753s.[0m
+[32m[37m[TIMER] Solve took 0.0196024s.[0m
+[32m[37m[TIMER] Derivatives took 0.37691s.[0m
+[32m[37m[TIMER] Iteration took 2.89388s.[0m
+[35m[DEBUG] Final energy: 991.644[0m
+[32m[37m[TIMER] optimize took 2.96012s.[0m
+[32m[37m[TIMER] remeshing took 1.27206s.[0m
+[32mStarting iteration: 4[0m
+[35m[DEBUG] splits done[0m
+[35m[DEBUG] collapse done[0m
+[35m[DEBUG] Splits: 921[0m
+[35m[DEBUG] Collapses: 208[0m
+[35m[DEBUG] Flips: 449[0m
+[35m[DEBUG] #Vertices: 1665[0m
+[32m[37m[TIMER] timer flip took 0.231286s.[0m
+[32m[37m[TIMER] timer collapse took 0.942079s.[0m
+[32m[37m[TIMER] timer_split took 0.51115s.[0m
+[35m[DEBUG] landmark_err = 9.96925e-05[0m
+[35m[DEBUG] Energy in iteration eval() 718.346[0m
+[32mComputing Newton step via direct solve. n = 6660, nnz_per_row = 27.9712[0m
+[35m[DEBUG] newton decr: 351.227[0m
+[35m[DEBUG] d.norm() = 8.04897[0m
+[32m[37m[TIMER] Line search took 3.24513s.[0m
+[32m[37m[TIMER] Solve took 0.0357615s.[0m
+[32m[37m[TIMER] Derivatives took 0.502149s.[0m
+[32m[37m[TIMER] Iteration took 3.90958s.[0m
+[35m[DEBUG] Final energy: 718.342[0m
+[32m[37m[TIMER] optimize took 4.01249s.[0m
+[32m[37m[TIMER] remeshing took 1.73074s.[0m
+[32mStarting iteration: 5[0m
+[35m[DEBUG] splits done[0m
+[35m[DEBUG] collapse done[0m
+[35m[DEBUG] Splits: 1638[0m
+[35m[DEBUG] Collapses: 398[0m
+[35m[DEBUG] Flips: 751[0m
+[35m[DEBUG] #Vertices: 2905[0m
+[32m[37m[TIMER] timer flip took 0.352963s.[0m
+[32m[37m[TIMER] timer collapse took 1.46449s.[0m
+[32m[37m[TIMER] timer_split took 0.734584s.[0m
+[35m[DEBUG] landmark_err = 9.96925e-05[0m
+[35m[DEBUG] Energy in iteration eval() 629.715[0m
+[32mComputing Newton step via direct solve. n = 11620, nnz_per_row = 27.9835[0m
+[35m[DEBUG] newton decr: 269.588[0m
+[35m[DEBUG] d.norm() = 6.73403[0m
+[32m[37m[TIMER] Line search took 4.00961s.[0m
+[32m[37m[TIMER] Solve took 0.0658338s.[0m
+[32m[37m[TIMER] Derivatives took 0.784341s.[0m
+[32m[37m[TIMER] Iteration took 5.03497s.[0m
+[35m[DEBUG] Final energy: 629.711[0m
+[32m[37m[TIMER] optimize took 5.19204s.[0m
+[32m[37m[TIMER] remeshing took 2.60094s.[0m
+[32mStarting iteration: 6[0m
+[35m[DEBUG] splits done[0m
+[35m[DEBUG] collapse done[0m
+[35m[DEBUG] Splits: 2006[0m
+[35m[DEBUG] Collapses: 575[0m
+[35m[DEBUG] Flips: 935[0m
+[35m[DEBUG] #Vertices: 4336[0m
+[32m[37m[TIMER] timer flip took 0.451993s.[0m
+[32m[37m[TIMER] timer collapse took 1.98179s.[0m
+[32m[37m[TIMER] timer_split took 0.963479s.[0m
+[35m[DEBUG] landmark_err = 9.96925e-05[0m
+[35m[DEBUG] Energy in iteration eval() 597.858[0m
+[32mComputing Newton step via direct solve. n = 17344, nnz_per_row = 27.9889[0m
+[35m[DEBUG] newton decr: 915.571[0m
+[35m[DEBUG] d.norm() = 0.343645[0m
+[32m[37m[TIMER] Line search took 3.87834s.[0m
+[32m[37m[TIMER] Solve took 0.108758s.[0m
+[32m[37m[TIMER] Derivatives took 1.06413s.[0m
+[32m[37m[TIMER] Iteration took 5.28792s.[0m
+[35m[DEBUG] Final energy: 597.855[0m
+[32m[37m[TIMER] optimize took 5.49686s.[0m
+[32m[37m[TIMER] remeshing took 3.45373s.[0m
+[32mStarting iteration: 7[0m
+[35m[DEBUG] splits done[0m
+[35m[DEBUG] collapse done[0m
+[35m[DEBUG] Splits: 1479[0m
+[35m[DEBUG] Collapses: 567[0m
+[35m[DEBUG] Flips: 722[0m
+[35m[DEBUG] #Vertices: 5248[0m
+[32m[37m[TIMER] timer flip took 0.584458s.[0m
+[32m[37m[TIMER] timer collapse took 2.42751s.[0m
+[32m[37m[TIMER] timer_split took 1.04504s.[0m
+[35m[DEBUG] landmark_err = 9.96925e-05[0m
+[35m[DEBUG] Energy in iteration eval() 581.945[0m
+[32mComputing Newton step via direct solve. n = 20992, nnz_per_row = 27.9909[0m
+[35m[DEBUG] newton decr: 125.194[0m
+[35m[DEBUG] d.norm() = 0.333774[0m
+[32m[37m[TIMER] Line search took 3.76455s.[0m
+[32m[37m[TIMER] Solve took 0.177665s.[0m
+[32m[37m[TIMER] Derivatives took 1.47172s.[0m
+[32m[37m[TIMER] Iteration took 5.69262s.[0m
+[35m[DEBUG] Final energy: 581.933[0m
+[32m[37m[TIMER] optimize took 5.93104s.[0m
+[32m[37m[TIMER] remeshing took 4.12046s.[0m
+[32mStarting iteration: 8[0m
+[35m[DEBUG] splits done[0m
+[35m[DEBUG] collapse done[0m
+[35m[DEBUG] Splits: 737[0m
+[35m[DEBUG] Collapses: 344[0m
+[35m[DEBUG] Flips: 448[0m
+[35m[DEBUG] #Vertices: 5641[0m
+[32m[37m[TIMER] timer flip took 0.473321s.[0m
+[32m[37m[TIMER] timer collapse took 2.01508s.[0m
+[32m[37m[TIMER] timer_split took 0.937943s.[0m
+[35m[DEBUG] landmark_err = 9.96925e-05[0m
+[35m[DEBUG] Energy in iteration eval() 553.719[0m
+[32mComputing Newton step via direct solve. n = 22564, nnz_per_row = 27.9915[0m
+[35m[DEBUG] newton decr: 156.275[0m
+[35m[DEBUG] d.norm() = 0.316615[0m
+[32m[37m[TIMER] Line search took 2.06807s.[0m
+[32m[37m[TIMER] Solve took 0.176796s.[0m
+[32m[37m[TIMER] Derivatives took 1.37387s.[0m
+[32m[37m[TIMER] Iteration took 3.89607s.[0m
+[35m[DEBUG] Final energy: 552.91[0m
+[32m[37m[TIMER] optimize took 4.15731s.[0m
+[32m[37m[TIMER] remeshing took 3.48708s.[0m
+[32mStarting iteration: 9[0m
+[35m[DEBUG] splits done[0m
+[35m[DEBUG] collapse done[0m
+[35m[DEBUG] Splits: 411[0m
+[35m[DEBUG] Collapses: 211[0m
+[35m[DEBUG] Flips: 294[0m
+[35m[DEBUG] #Vertices: 5841[0m
+[32m[37m[TIMER] timer flip took 0.446397s.[0m
+[32m[37m[TIMER] timer collapse took 2.01398s.[0m
+[32m[37m[TIMER] timer_split took 0.875515s.[0m
+[35m[DEBUG] landmark_err = 9.96925e-05[0m
+[35m[DEBUG] Energy in iteration eval() 510.515[0m
+[32mComputing Newton step via direct solve. n = 23364, nnz_per_row = 27.9918[0m
+[35m[DEBUG] newton decr: 158634[0m
+[35m[DEBUG] d.norm() = 0.528684[0m
+[32m[37m[TIMER] Line search took 6.29738s.[0m
+[32m[37m[TIMER] Solve took 0.172502s.[0m
+[32m[37m[TIMER] Derivatives took 1.46313s.[0m
+[32m[37m[TIMER] Iteration took 8.2878s.[0m
+[35m[DEBUG] Final energy: 510.512[0m
+[32m[37m[TIMER] optimize took 8.56628s.[0m
+[32m[37m[TIMER] remeshing took 3.39458s.[0m
+[32mStarting iteration: 10[0m
+[35m[DEBUG] splits done[0m
+[35m[DEBUG] collapse done[0m
+[35m[DEBUG] Splits: 241[0m
+[35m[DEBUG] Collapses: 133[0m
+[35m[DEBUG] Flips: 166[0m
+[35m[DEBUG] #Vertices: 5949[0m
+[32m[37m[TIMER] timer flip took 0.440752s.[0m
+[32m[37m[TIMER] timer collapse took 2.05893s.[0m
+[32m[37m[TIMER] timer_split took 0.86041s.[0m
+[35m[DEBUG] landmark_err = 9.96925e-05[0m
+[35m[DEBUG] Energy in iteration eval() 463.948[0m
+[32mComputing Newton step via direct solve. n = 23796, nnz_per_row = 27.9919[0m
+[35m[DEBUG] newton decr: 159673[0m
+[35m[DEBUG] d.norm() = 0.4854[0m
+[32m[37m[TIMER] Line search took 6.07464s.[0m
+[32m[37m[TIMER] Solve took 0.18075s.[0m
+[32m[37m[TIMER] Derivatives took 1.44565s.[0m
+[32m[37m[TIMER] Iteration took 7.9849s.[0m
+[35m[DEBUG] Final energy: 463.943[0m
+[32m[37m[TIMER] optimize took 8.24861s.[0m
+[32m[37m[TIMER] remeshing took 3.4191s.[0m
+[32mStarting iteration: 11[0m
+[35m[DEBUG] splits done[0m
+[35m[DEBUG] collapse done[0m
+[35m[DEBUG] Splits: 142[0m
+[35m[DEBUG] Collapses: 89[0m
+[35m[DEBUG] Flips: 106[0m
+[35m[DEBUG] #Vertices: 6002[0m
+[32m[37m[TIMER] timer flip took 0.487798s.[0m
+[32m[37m[TIMER] timer collapse took 1.8039s.[0m
+[32m[37m[TIMER] timer_split took 0.846022s.[0m
+[35m[DEBUG] landmark_err = 9.96925e-05[0m
+[35m[DEBUG] Energy in iteration eval() 434.619[0m
+[32mComputing Newton step via direct solve. n = 24008, nnz_per_row = 27.992[0m
+[35m[DEBUG] newton decr: 373123[0m
+[35m[DEBUG] d.norm() = 0.398703[0m
+[32m[37m[TIMER] Line search took 5.79986s.[0m
+[32m[37m[TIMER] Solve took 0.17181s.[0m
+[32m[37m[TIMER] Derivatives took 1.4589s.[0m
+[32m[37m[TIMER] Iteration took 7.72681s.[0m
+[35m[DEBUG] Final energy: 434.611[0m
+[32m[37m[TIMER] optimize took 7.99036s.[0m
+[32m[37m[TIMER] remeshing took 3.20446s.[0m
+[32mStarting iteration: 12[0m
+[35m[DEBUG] splits done[0m
+[35m[DEBUG] collapse done[0m
+[35m[DEBUG] Splits: 98[0m
+[35m[DEBUG] Collapses: 53[0m
+[35m[DEBUG] Flips: 70[0m
+[35m[DEBUG] #Vertices: 6047[0m
+[32m[37m[TIMER] timer flip took 0.415251s.[0m
+[32m[37m[TIMER] timer collapse took 1.75269s.[0m
+[32m[37m[TIMER] timer_split took 0.838889s.[0m
+[35m[DEBUG] landmark_err = 9.96925e-05[0m
+[35m[DEBUG] Energy in iteration eval() 405.516[0m
+[32mComputing Newton step via direct solve. n = 24188, nnz_per_row = 27.9921[0m
+[35m[DEBUG] newton decr: 236.242[0m
+[35m[DEBUG] d.norm() = 0.616011[0m
+[32m[37m[TIMER] Line search took 4.06517s.[0m
+[32m[37m[TIMER] Solve took 0.181686s.[0m
+[32m[37m[TIMER] Derivatives took 1.45959s.[0m
+[32m[37m[TIMER] Iteration took 6.00369s.[0m
+[35m[DEBUG] Final energy: 405.498[0m
+[32m[37m[TIMER] optimize took 6.28547s.[0m
+[32m[37m[TIMER] remeshing took 3.06721s.[0m
+[32mStarting iteration: 13[0m
+[35m[DEBUG] splits done[0m
+[35m[DEBUG] collapse done[0m
+[35m[DEBUG] Splits: 77[0m
+[35m[DEBUG] Collapses: 30[0m
+[35m[DEBUG] Flips: 53[0m
+[35m[DEBUG] #Vertices: 6094[0m
+[32m[37m[TIMER] timer flip took 0.427477s.[0m
+[32m[37m[TIMER] timer collapse took 1.7798s.[0m
+[32m[37m[TIMER] timer_split took 0.838352s.[0m
+[35m[DEBUG] landmark_err = 9.96925e-05[0m
+[35m[DEBUG] Energy in iteration eval() 373.411[0m
+[32mComputing Newton step via direct solve. n = 24376, nnz_per_row = 27.9921[0m
+[35m[DEBUG] newton decr: 98.2634[0m
+[35m[DEBUG] d.norm() = 0.487882[0m
+[32m[37m[TIMER] Line search took 2.16226s.[0m
+[32m[37m[TIMER] Solve took 0.186236s.[0m
+[32m[37m[TIMER] Derivatives took 1.42849s.[0m
+[32m[37m[TIMER] Iteration took 4.07057s.[0m
+[35m[DEBUG] Final energy: 371.932[0m
+[32m[37m[TIMER] optimize took 4.35507s.[0m
+[32m[37m[TIMER] remeshing took 3.09919s.[0m
+[32mStarting iteration: 14[0m
+[35m[DEBUG] splits done[0m
+[35m[DEBUG] collapse done[0m
+[35m[DEBUG] Splits: 69[0m
+[35m[DEBUG] Collapses: 39[0m
+[35m[DEBUG] Flips: 51[0m
+[35m[DEBUG] #Vertices: 6124[0m
+[32m[37m[TIMER] timer flip took 0.432383s.[0m
+[32m[37m[TIMER] timer collapse took 1.796s.[0m
+[32m[37m[TIMER] timer_split took 0.841237s.[0m
+[35m[DEBUG] landmark_err = 9.96925e-05[0m
+[35m[DEBUG] Energy in iteration eval() 345.423[0m
+[32mComputing Newton step via direct solve. n = 24496, nnz_per_row = 27.9922[0m
+[35m[DEBUG] newton decr: 92.8289[0m
+[35m[DEBUG] d.norm() = 0.388372[0m
+[32m[37m[TIMER] Line search took 2.49893s.[0m
+[32m[37m[TIMER] Solve took 0.198062s.[0m
+[32m[37m[TIMER] Derivatives took 1.47468s.[0m
+[32m[37m[TIMER] Iteration took 4.47293s.[0m
+[35m[DEBUG] Final energy: 344.958[0m
+[32m[37m[TIMER] optimize took 4.75169s.[0m
+[32m[37m[TIMER] remeshing took 3.12586s.[0m
+[32mStarting iteration: 15[0m
+[35m[DEBUG] splits done[0m
+[35m[DEBUG] collapse done[0m
+[35m[DEBUG] Splits: 44[0m
+[35m[DEBUG] Collapses: 21[0m
+[35m[DEBUG] Flips: 38[0m
+[35m[DEBUG] #Vertices: 6147[0m
+[32m[37m[TIMER] timer flip took 0.430786s.[0m
+[32m[37m[TIMER] timer collapse took 1.96386s.[0m
+[32m[37m[TIMER] timer_split took 0.867526s.[0m
+[35m[DEBUG] landmark_err = 9.96925e-05[0m
+[35m[DEBUG] Energy in iteration eval() 333.54[0m
+[32mComputing Newton step via direct solve. n = 24588, nnz_per_row = 27.9922[0m
+[35m[DEBUG] newton decr: 76.5816[0m
+[35m[DEBUG] d.norm() = 0.898921[0m
+[32m[37m[TIMER] Line search took 2.61105s.[0m
+[32m[37m[TIMER] Solve took 0.175941s.[0m
+[32m[37m[TIMER] Derivatives took 1.46581s.[0m
+[32m[37m[TIMER] Iteration took 4.57201s.[0m
+[35m[DEBUG] Final energy: 332.744[0m
+[32m[37m[TIMER] optimize took 4.84615s.[0m
+[32m[37m[TIMER] remeshing took 3.32449s.[0m
+[32mStarting iteration: 16[0m
+[35m[DEBUG] splits done[0m
+[35m[DEBUG] collapse done[0m
+[35m[DEBUG] Splits: 55[0m
+[35m[DEBUG] Collapses: 26[0m
+[35m[DEBUG] Flips: 51[0m
+[35m[DEBUG] #Vertices: 6176[0m
+[32m[37m[TIMER] timer flip took 0.42286s.[0m
+[32m[37m[TIMER] timer collapse took 1.86926s.[0m
+[32m[37m[TIMER] timer_split took 0.842286s.[0m
+[35m[DEBUG] landmark_err = 9.96925e-05[0m
+[35m[DEBUG] Energy in iteration eval() 329.789[0m
+[32mComputing Newton step via direct solve. n = 24704, nnz_per_row = 27.9922[0m
+[35m[DEBUG] newton decr: 74.3256[0m
+[35m[DEBUG] d.norm() = 0.343316[0m
+[32m[37m[TIMER] Line search took 2.41356s.[0m
+[32m[37m[TIMER] Solve took 0.181504s.[0m
+[32m[37m[TIMER] Derivatives took 1.52596s.[0m
+[32m[37m[TIMER] Iteration took 4.42638s.[0m
+[35m[DEBUG] Final energy: 329.383[0m
+[32m[37m[TIMER] optimize took 4.70919s.[0m
+[32m[37m[TIMER] remeshing took 3.20208s.[0m
+[32mStarting iteration: 17[0m
+[35m[DEBUG] splits done[0m
+[35m[DEBUG] collapse done[0m
+[35m[DEBUG] Splits: 49[0m
+[35m[DEBUG] Collapses: 22[0m
+[35m[DEBUG] Flips: 39[0m
+[35m[DEBUG] #Vertices: 6203[0m
+[32m[37m[TIMER] timer flip took 0.419608s.[0m
+[32m[37m[TIMER] timer collapse took 1.78369s.[0m
+[32m[37m[TIMER] timer_split took 0.83329s.[0m
+[35m[DEBUG] landmark_err = 9.96925e-05[0m
+[35m[DEBUG] Energy in iteration eval() 324.602[0m
+[32mComputing Newton step via direct solve. n = 24812, nnz_per_row = 27.9923[0m
+[35m[DEBUG] newton decr: 64.6608[0m
+[35m[DEBUG] d.norm() = 0.959947[0m
+[32m[37m[TIMER] Line search took 2.48501s.[0m
+[32m[37m[TIMER] Solve took 0.197283s.[0m
+[32m[37m[TIMER] Derivatives took 1.55871s.[0m
+[32m[37m[TIMER] Iteration took 4.54022s.[0m
+[35m[DEBUG] Final energy: 323.673[0m
+[32m[37m[TIMER] optimize took 4.8107s.[0m
+[32m[37m[TIMER] remeshing took 3.10474s.[0m
+[32mStarting iteration: 18[0m
+[35m[DEBUG] splits done[0m
+[35m[DEBUG] collapse done[0m
+[35m[DEBUG] Splits: 48[0m
+[35m[DEBUG] Collapses: 27[0m
+[35m[DEBUG] Flips: 36[0m
+[35m[DEBUG] #Vertices: 6224[0m
+[32m[37m[TIMER] timer flip took 0.481223s.[0m
+[32m[37m[TIMER] timer collapse took 1.88942s.[0m
+[32m[37m[TIMER] timer_split took 0.842103s.[0m
+[35m[DEBUG] landmark_err = 9.96925e-05[0m
+[35m[DEBUG] Energy in iteration eval() 321.465[0m
+[32mComputing Newton step via direct solve. n = 24896, nnz_per_row = 27.9923[0m
+[35m[DEBUG] newton decr: 73.6909[0m
+[35m[DEBUG] d.norm() = 0.89048[0m
+[32m[37m[TIMER] Line search took 2.63351s.[0m
+[32m[37m[TIMER] Solve took 0.182834s.[0m
+[32m[37m[TIMER] Derivatives took 1.66681s.[0m
+[32m[37m[TIMER] Iteration took 4.78715s.[0m
+[35m[DEBUG] Final energy: 320.662[0m
+[32m[37m[TIMER] optimize took 5.07468s.[0m
+[32m[37m[TIMER] remeshing took 3.27719s.[0m
+[32mStarting iteration: 19[0m
+[35m[DEBUG] splits done[0m
+[35m[DEBUG] collapse done[0m
+[35m[DEBUG] Splits: 46[0m
+[35m[DEBUG] Collapses: 19[0m
+[35m[DEBUG] Flips: 40[0m
+[35m[DEBUG] #Vertices: 6251[0m
+[32m[37m[TIMER] timer flip took 0.471176s.[0m
+[32m[37m[TIMER] timer collapse took 1.76606s.[0m
+[32m[37m[TIMER] timer_split took 0.856881s.[0m
+[35m[DEBUG] landmark_err = 9.96925e-05[0m
+[35m[DEBUG] Energy in iteration eval() 319.025[0m
+[32mComputing Newton step via direct solve. n = 25004, nnz_per_row = 27.9923[0m
+[35m[DEBUG] newton decr: 66.9141[0m
+[35m[DEBUG] d.norm() = 0.285526[0m
+[32m[37m[TIMER] Line search took 3.3264s.[0m
+[32m[37m[TIMER] Solve took 0.191233s.[0m
+[32m[37m[TIMER] Derivatives took 1.58003s.[0m
+[32m[37m[TIMER] Iteration took 5.40954s.[0m
+[35m[DEBUG] Final energy: 318.987[0m
+[32m[37m[TIMER] optimize took 5.69158s.[0m
+[32m[37m[TIMER] remeshing took 3.1603s.[0m
+[32mStarting iteration: 20[0m
+[35m[DEBUG] splits done[0m
+[35m[DEBUG] collapse done[0m
+[35m[DEBUG] Splits: 31[0m
+[35m[DEBUG] Collapses: 11[0m
+[35m[DEBUG] Flips: 25[0m
+[35m[DEBUG] #Vertices: 6271[0m
+[32m[37m[TIMER] timer flip took 0.482835s.[0m
+[32m[37m[TIMER] timer collapse took 1.77271s.[0m
+[32m[37m[TIMER] timer_split took 0.838098s.[0m
+[35m[DEBUG] landmark_err = 9.96925e-05[0m
+[35m[DEBUG] Energy in iteration eval() 318.433[0m
+[32mComputing Newton step via direct solve. n = 25084, nnz_per_row = 27.9923[0m
+[35m[DEBUG] newton decr: 67.926[0m
+[35m[DEBUG] d.norm() = 0.309289[0m
+[32m[37m[TIMER] Line search took 2.56425s.[0m
+[32m[37m[TIMER] Solve took 0.181868s.[0m
+[32m[37m[TIMER] Derivatives took 1.58917s.[0m
+[32m[37m[TIMER] Iteration took 4.65947s.[0m
+[35m[DEBUG] Final energy: 318.227[0m
+[32m[37m[TIMER] optimize took 4.94195s.[0m
+[32m[37m[TIMER] remeshing took 3.17701s.[0m
+[32mStarting iteration: 21[0m
+[35m[DEBUG] splits done[0m
+[35m[DEBUG] collapse done[0m
+[35m[DEBUG] Splits: 18[0m
+[35m[DEBUG] Collapses: 11[0m
+[35m[DEBUG] Flips: 21[0m
+[35m[DEBUG] #Vertices: 6278[0m
+[32m[37m[TIMER] timer flip took 0.476773s.[0m
+[32m[37m[TIMER] timer collapse took 1.77558s.[0m
+[32m[37m[TIMER] timer_split took 0.941888s.[0m
+[35m[DEBUG] landmark_err = 9.96925e-05[0m
+[35m[DEBUG] Energy in iteration eval() 317.892[0m
+[32mComputing Newton step via direct solve. n = 25112, nnz_per_row = 27.9924[0m
+[35m[DEBUG] newton decr: 67.2528[0m
+[35m[DEBUG] d.norm() = 0.936734[0m
+[32m[37m[TIMER] Line search took 2.48043s.[0m
+[32m[37m[TIMER] Solve took 0.213381s.[0m
+[32m[37m[TIMER] Derivatives took 1.65086s.[0m
+[32m[37m[TIMER] Iteration took 4.66634s.[0m
+[35m[DEBUG] Final energy: 316.933[0m
+[32m[37m[TIMER] optimize took 4.9466s.[0m
+[32m[37m[TIMER] remeshing took 3.2763s.[0m
+[32mStarting iteration: 22[0m
+[35m[DEBUG] splits done[0m
+[35m[DEBUG] collapse done[0m
+[35m[DEBUG] Splits: 18[0m
+[35m[DEBUG] Collapses: 16[0m
+[35m[DEBUG] Flips: 16[0m
+[35m[DEBUG] #Vertices: 6280[0m
+[32m[37m[TIMER] timer flip took 0.486501s.[0m
+[32m[37m[TIMER] timer collapse took 1.76167s.[0m
+[32m[37m[TIMER] timer_split took 0.829751s.[0m
+[35m[DEBUG] landmark_err = 9.96925e-05[0m
+[35m[DEBUG] Energy in iteration eval() 316.769[0m
+[32mComputing Newton step via direct solve. n = 25120, nnz_per_row = 27.9924[0m
+[35m[DEBUG] newton decr: 69.739[0m
+[35m[DEBUG] d.norm() = 0.768138[0m
+[32m[37m[TIMER] Line search took 2.8974s.[0m
+[32m[37m[TIMER] Solve took 0.175315s.[0m
+[32m[37m[TIMER] Derivatives took 1.63753s.[0m
+[32m[37m[TIMER] Iteration took 5.01668s.[0m
+[35m[DEBUG] Final energy: 316.464[0m
+[32m[37m[TIMER] optimize took 5.29044s.[0m
+[32m[37m[TIMER] remeshing took 3.16617s.[0m
+[32mStarting iteration: 23[0m
+[35m[DEBUG] splits done[0m
+[35m[DEBUG] collapse done[0m
+[35m[DEBUG] Splits: 9[0m
+[35m[DEBUG] Collapses: 4[0m
+[35m[DEBUG] Flips: 7[0m
+[35m[DEBUG] #Vertices: 6285[0m
+[32m[37m[TIMER] timer flip took 0.435821s.[0m
+[32m[37m[TIMER] timer collapse took 1.94862s.[0m
+[32m[37m[TIMER] timer_split took 0.815395s.[0m
+[35m[DEBUG] landmark_err = 9.96925e-05[0m
+[35m[DEBUG] Energy in iteration eval() 316.407[0m
+[32mComputing Newton step via direct solve. n = 25140, nnz_per_row = 27.9924[0m
+[35m[DEBUG] newton decr: 63.1538[0m
+[35m[DEBUG] d.norm() = 0.864083[0m
+[32m[37m[TIMER] Line search took 2.32455s.[0m
+[32m[37m[TIMER] Solve took 0.175887s.[0m
+[32m[37m[TIMER] Derivatives took 1.61929s.[0m
+[32m[37m[TIMER] Iteration took 4.42476s.[0m
+[35m[DEBUG] Final energy: 315.109[0m
+[32m[37m[TIMER] optimize took 4.72892s.[0m
+[32m[37m[TIMER] remeshing took 3.27988s.[0m
+[32mStarting iteration: 24[0m
+[35m[DEBUG] splits done[0m
+[35m[DEBUG] collapse done[0m
+[35m[DEBUG] Splits: 11[0m
+[35m[DEBUG] Collapses: 6[0m
+[35m[DEBUG] Flips: 12[0m
+[35m[DEBUG] #Vertices: 6290[0m
+[32m[37m[TIMER] timer flip took 0.498977s.[0m
+[32m[37m[TIMER] timer collapse took 1.83507s.[0m
+[32m[37m[TIMER] timer_split took 0.868107s.[0m
+[35m[DEBUG] landmark_err = 9.96925e-05[0m
+[35m[DEBUG] Energy in iteration eval() 315.012[0m
+[32mComputing Newton step via direct solve. n = 25160, nnz_per_row = 27.9924[0m
+[35m[DEBUG] newton decr: 67.3644[0m
+[35m[DEBUG] d.norm() = 0.879973[0m
+[32m[37m[TIMER] Line search took 2.33807s.[0m
+[32m[37m[TIMER] Solve took 0.19917s.[0m
+[32m[37m[TIMER] Derivatives took 1.7397s.[0m
+[32m[37m[TIMER] Iteration took 4.60596s.[0m
+[35m[DEBUG] Final energy: 313.767[0m
+[32m[37m[TIMER] optimize took 4.90759s.[0m
+[32m[37m[TIMER] remeshing took 3.2903s.[0m
+[32mStarting iteration: 25[0m
+[35m[DEBUG] splits done[0m
+[35m[DEBUG] collapse done[0m
+[35m[DEBUG] Splits: 10[0m
+[35m[DEBUG] Collapses: 10[0m
+[35m[DEBUG] Flips: 11[0m
+[35m[DEBUG] #Vertices: 6290[0m
+[32m[37m[TIMER] timer flip took 0.474977s.[0m
+[32m[37m[TIMER] timer collapse took 1.76599s.[0m
+[32m[37m[TIMER] timer_split took 0.819749s.[0m
+[35m[DEBUG] landmark_err = 9.96925e-05[0m
+[35m[DEBUG] Energy in iteration eval() 303.568[0m
+[32mComputing Newton step via direct solve. n = 25160, nnz_per_row = 27.9924[0m
+[35m[DEBUG] newton decr: 81.8795[0m
+[35m[DEBUG] d.norm() = 0.977025[0m
+[32m[37m[TIMER] Line search took 4.91277s.[0m
+[32m[37m[TIMER] Solve took 0.184417s.[0m
+[32m[37m[TIMER] Derivatives took 1.66515s.[0m
+[32m[37m[TIMER] Iteration took 7.10216s.[0m
+[35m[DEBUG] Final energy: 303.561[0m
+[32m[37m[TIMER] optimize took 7.4007s.[0m
+[32m[37m[TIMER] remeshing took 3.13645s.[0m
+[32mStarting iteration: 26[0m
+[35m[DEBUG] splits done[0m
+[35m[DEBUG] collapse done[0m
+[35m[DEBUG] Splits: 7[0m
+[35m[DEBUG] Collapses: 5[0m
+[35m[DEBUG] Flips: 7[0m
+[35m[DEBUG] #Vertices: 6292[0m
+[32m[37m[TIMER] timer flip took 0.422285s.[0m
+[32m[37m[TIMER] timer collapse took 1.76815s.[0m
+[32m[37m[TIMER] timer_split took 0.833677s.[0m
+[35m[DEBUG] landmark_err = 9.96925e-05[0m
+[35m[DEBUG] Energy in iteration eval() 301.693[0m
+[32mComputing Newton step via direct solve. n = 25168, nnz_per_row = 27.9924[0m
+[35m[DEBUG] newton decr: 89.3486[0m
+[35m[DEBUG] d.norm() = 0.945879[0m
+[32m[37m[TIMER] Line search took 3.47104s.[0m
+[32m[37m[TIMER] Solve took 0.174364s.[0m
+[32m[37m[TIMER] Derivatives took 1.5317s.[0m
+[32m[37m[TIMER] Iteration took 5.4899s.[0m
+[35m[DEBUG] Final energy: 301.55[0m
+[32m[37m[TIMER] optimize took 5.75838s.[0m
+[32m[37m[TIMER] remeshing took 3.11133s.[0m
+[32mStarting iteration: 27[0m
+[35m[DEBUG] splits done[0m
+[35m[DEBUG] collapse done[0m
+[35m[DEBUG] Splits: 4[0m
+[35m[DEBUG] Collapses: 4[0m
+[35m[DEBUG] Flips: 1[0m
+[35m[DEBUG] #Vertices: 6292[0m
+[32m[37m[TIMER] timer flip took 0.427474s.[0m
+[32m[37m[TIMER] timer collapse took 1.75791s.[0m
+[32m[37m[TIMER] timer_split took 0.824053s.[0m
+[35m[DEBUG] landmark_err = 9.96925e-05[0m
+[35m[DEBUG] Energy in iteration eval() 300.75[0m
+[32mComputing Newton step via direct solve. n = 25168, nnz_per_row = 27.9924[0m
+[35m[DEBUG] newton decr: 108.697[0m
+[35m[DEBUG] d.norm() = 0.373536[0m
+[32m[37m[TIMER] Line search took 5.90363s.[0m
+[32m[37m[TIMER] Solve took 0.18573s.[0m
+[32m[37m[TIMER] Derivatives took 1.46082s.[0m
+[32m[37m[TIMER] Iteration took 7.84305s.[0m
+[35m[DEBUG] Final energy: 300.75[0m
+[32m[37m[TIMER] optimize took 8.10427s.[0m
+[32m[37m[TIMER] remeshing took 3.09565s.[0m
+[32mStarting iteration: 28[0m
+[35m[DEBUG] splits done[0m
+[35m[DEBUG] collapse done[0m
+[35m[DEBUG] Splits: 5[0m
+[35m[DEBUG] Collapses: 2[0m
+[35m[DEBUG] Flips: 2[0m
+[35m[DEBUG] #Vertices: 6295[0m
+[32m[37m[TIMER] timer flip took 0.4158s.[0m
+[32m[37m[TIMER] timer collapse took 1.74475s.[0m
+[32m[37m[TIMER] timer_split took 0.818945s.[0m
+[35m[DEBUG] landmark_err = 9.96925e-05[0m
+[35m[DEBUG] Energy in iteration eval() 300.553[0m
+[32mComputing Newton step via direct solve. n = 25180, nnz_per_row = 27.9924[0m
+[35m[DEBUG] newton decr: 5683.06[0m
+[35m[DEBUG] d.norm() = 0.330112[0m
+[32m[37m[TIMER] Line search took 6.67491s.[0m
+[32m[37m[TIMER] Solve took 0.186922s.[0m
+[32m[37m[TIMER] Derivatives took 1.46952s.[0m
+[32m[37m[TIMER] Iteration took 8.64738s.[0m
+[35m[DEBUG] Final energy: 300.553[0m
+[32m[37m[TIMER] optimize took 8.93255s.[0m
+[32m[37m[TIMER] remeshing took 3.06212s.[0m
+[32mStarting iteration: 29[0m
+[35m[DEBUG] splits done[0m
+[35m[DEBUG] collapse done[0m
+[35m[DEBUG] Splits: 2[0m
+[35m[DEBUG] Collapses: 1[0m
+[35m[DEBUG] Flips: 4[0m
+[35m[DEBUG] #Vertices: 6296[0m
+[32m[37m[TIMER] timer flip took 0.418998s.[0m
+[32m[37m[TIMER] timer collapse took 1.75872s.[0m
+[32m[37m[TIMER] timer_split took 0.824297s.[0m
+[35m[DEBUG] landmark_err = 9.96925e-05[0m
+[35m[DEBUG] Energy in iteration eval() 300.299[0m
+[32mComputing Newton step via direct solve. n = 25184, nnz_per_row = 27.9924[0m
+[35m[DEBUG] newton decr: 20399.5[0m
+[35m[DEBUG] d.norm() = 0.304317[0m
+[32m[37m[TIMER] Line search took 7.4325s.[0m
+[32m[37m[TIMER] Solve took 0.178937s.[0m
+[32m[37m[TIMER] Derivatives took 1.50796s.[0m
+[32m[37m[TIMER] Iteration took 9.41342s.[0m
+[35m[DEBUG] Final energy: 300.299[0m
+[32m[37m[TIMER] optimize took 9.69506s.[0m
+[32m[37m[TIMER] remeshing took 3.07904s.[0m
+[32mStarting iteration: 30[0m
+[35m[DEBUG] splits done[0m
+[35m[DEBUG] collapse done[0m
+[35m[DEBUG] Splits: 2[0m
+[35m[DEBUG] Collapses: 1[0m
+[35m[DEBUG] Flips: 3[0m
+[35m[DEBUG] #Vertices: 6297[0m
+[32m[37m[TIMER] timer flip took 0.407013s.[0m
+[32m[37m[TIMER] timer collapse took 1.74877s.[0m
+[32m[37m[TIMER] timer_split took 0.825035s.[0m
+[35m[DEBUG] landmark_err = 9.96925e-05[0m
+[35m[DEBUG] Energy in iteration eval() 300.145[0m
+[32mComputing Newton step via direct solve. n = 25188, nnz_per_row = 27.9924[0m
+[35m[DEBUG] newton decr: 223.511[0m
+[35m[DEBUG] d.norm() = 0.332154[0m
+[33m[WARNING] Line search couldn't find improvement. Gradient max norm is 2149.47[0m (in function line_search:62 in file /mnt/c/Users/Karanvir Singh/Downloads/surface-maps-via-adaptive-triangulations/libs/TinyAD/include/TinyAD/Utils/LineSearch.hh)
+[32m[45mLine search couldn't find improvement. Stop continuous iterations.[0m
+[32m[37m[TIMER] Line search took 7.08s.[0m
+[32m[37m[TIMER] Solve took 0.184999s.[0m
+[32m[37m[TIMER] Derivatives took 1.49485s.[0m
+[32m[37m[TIMER] Iteration took 9.05024s.[0m
+[35m[DEBUG] Final energy: 300.145[0m
+[32m[37m[TIMER] optimize took 9.3841s.[0m
+[32m[37m[TIMER] remeshing took 3.0686s.[0m
+[32mStarting iteration: 31[0m
+[35m[DEBUG] splits done[0m
+[35m[DEBUG] collapse done[0m
+[35m[DEBUG] Splits: 2[0m
+[35m[DEBUG] Collapses: 1[0m
+[35m[DEBUG] Flips: 2[0m
+[35m[DEBUG] #Vertices: 6298[0m
+[32m[37m[TIMER] timer flip took 0.449051s.[0m
+[32m[37m[TIMER] timer collapse took 1.95697s.[0m
+[32m[37m[TIMER] timer_split took 0.93439s.[0m
+[35m[DEBUG] landmark_err = 9.96925e-05[0m
+[35m[DEBUG] Energy in iteration eval() 299.376[0m
+[32mComputing Newton step via direct solve. n = 25192, nnz_per_row = 27.9924[0m
+[35m[DEBUG] newton decr: 222.003[0m
+[35m[DEBUG] d.norm() = 0.332845[0m
+[33m[WARNING] Line search couldn't find improvement. Gradient max norm is 2149.47[0m (in function line_search:62 in file /mnt/c/Users/Karanvir Singh/Downloads/surface-maps-via-adaptive-triangulations/libs/TinyAD/include/TinyAD/Utils/LineSearch.hh)
+[32m[45mLine search couldn't find improvement. Stop continuous iterations.[0m
+[32m[37m[TIMER] Line search took 7.25194s.[0m
+[32m[37m[TIMER] Solve took 0.175549s.[0m
+[32m[37m[TIMER] Derivatives took 1.48136s.[0m
+[32m[37m[TIMER] Iteration took 9.22761s.[0m
+[35m[DEBUG] Final energy: 299.376[0m
+[32m[37m[TIMER] optimize took 9.53033s.[0m
+[32m[37m[TIMER] remeshing took 3.44247s.[0m
+[32mStarting iteration: 32[0m
+[35m[DEBUG] splits done[0m
+[35m[DEBUG] collapse done[0m
+[35m[DEBUG] Splits: 5[0m
+[35m[DEBUG] Collapses: 0[0m
+[35m[DEBUG] Flips: 3[0m
+[35m[DEBUG] #Vertices: 6303[0m
+[32m[37m[TIMER] timer flip took 0.42103s.[0m
+[32m[37m[TIMER] timer collapse took 1.75879s.[0m
+[32m[37m[TIMER] timer_split took 0.821374s.[0m
+[35m[DEBUG] landmark_err = 9.96925e-05[0m
+[35m[DEBUG] Energy in iteration eval() 299.228[0m
+[32mComputing Newton step via direct solve. n = 25212, nnz_per_row = 27.9924[0m
+[35m[DEBUG] newton decr: 221.827[0m
+[35m[DEBUG] d.norm() = 0.333281[0m
+[33m[WARNING] Line search couldn't find improvement. Gradient max norm is 2149.47[0m (in function line_search:62 in file /mnt/c/Users/Karanvir Singh/Downloads/surface-maps-via-adaptive-triangulations/libs/TinyAD/include/TinyAD/Utils/LineSearch.hh)
+[32m[45mLine search couldn't find improvement. Stop continuous iterations.[0m
+[32m[37m[TIMER] Line search took 6.97097s.[0m
+[32m[37m[TIMER] Solve took 0.187193s.[0m
+[32m[37m[TIMER] Derivatives took 1.51111s.[0m
+[32m[37m[TIMER] Iteration took 8.96948s.[0m
+[35m[DEBUG] Final energy: 299.228[0m
+[32m[37m[TIMER] optimize took 9.26711s.[0m
+[32m[37m[TIMER] remeshing took 3.08521s.[0m
+[32mStarting iteration: 33[0m
+[35m[DEBUG] splits done[0m
+[35m[DEBUG] collapse done[0m
+[35m[DEBUG] Splits: 3[0m
+[35m[DEBUG] Collapses: 1[0m
+[35m[DEBUG] Flips: 3[0m
+[35m[DEBUG] #Vertices: 6305[0m
+[32m[37m[TIMER] timer flip took 0.429886s.[0m
+[32m[37m[TIMER] timer collapse took 1.74579s.[0m
+[32m[37m[TIMER] timer_split took 0.822533s.[0m
+[35m[DEBUG] landmark_err = 9.96925e-05[0m
+[35m[DEBUG] Energy in iteration eval() 299.162[0m
+[32mComputing Newton step via direct solve. n = 25220, nnz_per_row = 27.9924[0m
+[35m[DEBUG] newton decr: 221.749[0m
+[35m[DEBUG] d.norm() = 0.333074[0m
+[33m[WARNING] Line search couldn't find improvement. Gradient max norm is 2149.47[0m (in function line_search:62 in file /mnt/c/Users/Karanvir Singh/Downloads/surface-maps-via-adaptive-triangulations/libs/TinyAD/include/TinyAD/Utils/LineSearch.hh)
+[32m[45mLine search couldn't find improvement. Stop continuous iterations.[0m
+[32m[37m[TIMER] Line search took 6.95989s.[0m
+[32m[37m[TIMER] Solve took 0.190793s.[0m
+[32m[37m[TIMER] Derivatives took 1.49684s.[0m
+[32m[37m[TIMER] Iteration took 8.95822s.[0m
+[35m[DEBUG] Final energy: 299.162[0m
+[32m[37m[TIMER] optimize took 9.25823s.[0m
+[32m[37m[TIMER] remeshing took 3.07878s.[0m
+[32mStarting iteration: 34[0m
+[35m[DEBUG] splits done[0m
+[35m[DEBUG] collapse done[0m
+[35m[DEBUG] Splits: 0[0m
+[35m[DEBUG] Collapses: 0[0m
+[35m[DEBUG] Flips: 1[0m
+[35m[DEBUG] #Vertices: 6305[0m
+[32m[37m[TIMER] timer flip took 0.406432s.[0m
+[32m[37m[TIMER] timer collapse took 1.74958s.[0m
+[32m[37m[TIMER] timer_split took 0.825812s.[0m
+[35m[DEBUG] landmark_err = 9.96925e-05[0m
+[35m[DEBUG] Energy in iteration eval() 299.139[0m
+[32mComputing Newton step via direct solve. n = 25220, nnz_per_row = 27.9924[0m
+[35m[DEBUG] newton decr: 221.727[0m
+[35m[DEBUG] d.norm() = 0.333041[0m
+[33m[WARNING] Line search couldn't find improvement. Gradient max norm is 2149.47[0m (in function line_search:62 in file /mnt/c/Users/Karanvir Singh/Downloads/surface-maps-via-adaptive-triangulations/libs/TinyAD/include/TinyAD/Utils/LineSearch.hh)
+[32m[45mLine search couldn't find improvement. Stop continuous iterations.[0m
+[32m[37m[TIMER] Line search took 6.92972s.[0m
+[32m[37m[TIMER] Solve took 0.178576s.[0m
+[32m[37m[TIMER] Derivatives took 1.49098s.[0m
+[32m[37m[TIMER] Iteration took 8.89391s.[0m
+[35m[DEBUG] Final energy: 299.139[0m
+[32m[37m[TIMER] optimize took 9.18463s.[0m
+[32m[37m[TIMER] remeshing took 3.06143s.[0m
+[32mStarting iteration: 35[0m
+[35m[DEBUG] splits done[0m
+[35m[DEBUG] collapse done[0m
+[35m[DEBUG] Splits: 0[0m
+[35m[DEBUG] Collapses: 0[0m
+[35m[DEBUG] Flips: 0[0m
+[35m[DEBUG] #Vertices: 6305[0m
+[32m[37m[TIMER] timer flip took 0.408025s.[0m
+[32m[37m[TIMER] timer collapse took 1.74614s.[0m
+[32m[37m[TIMER] timer_split took 0.818651s.[0m
+[32m[45mLine search couldn't find improvement and remeshing converged in iteration 35[0m
+[32m[37m[TIMER] remeshing took 3.04788s.[0m
+[23:26:31][Info] Saved screenshot as /mnt/c/Users/Karanvir Singh/Downloads/surface-maps-via-adaptive-triangulations/build/output/coarse_to_fine/screenshots/03_after_fine_A.png
+[23:26:40][Info] Saved screenshot as /mnt/c/Users/Karanvir Singh/Downloads/surface-maps-via-adaptive-triangulations/build/output/coarse_to_fine/screenshots/03_after_fine_B.png
+[23:26:47][Info] Saved screenshot as /mnt/c/Users/Karanvir Singh/Downloads/surface-maps-via-adaptive-triangulations/build/output/coarse_to_fine/screenshots/03_after_fine_A_wire.png
+[23:26:54][Info] Saved screenshot as /mnt/c/Users/Karanvir Singh/Downloads/surface-maps-via-adaptive-triangulations/build/output/coarse_to_fine/screenshots/03_after_fine_B_wire.png
+[32mWrote "/mnt/c/Users/Karanvir Singh/Downloads/surface-maps-via-adaptive-triangulations/build/output/coarse_to_fine/T_00.obj"[0m
+[32mWrote "/mnt/c/Users/Karanvir Singh/Downloads/surface-maps-via-adaptive-triangulations/build/output/coarse_to_fine/T_01.obj"[0m
+[32mTotal run time: 463.44 seconds[0m
+[32m[37m[TIMER] Fine Phase took 321.597s.[0m
+[32m[37m[TIMER] Coarse Phase took 122.567s.[0m
+[32m[37m[TIMER] Landmark Phase took 7.02798s.[0m
+[32m[37m[TIMER] Init (maybe cached) took 12.248s.[0m
