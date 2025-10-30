@@ -1,5 +1,4 @@
-**CORRESPONDENCE FINDING MODULE
-**
+**CORRESPONDENCE FINDING MODULE**
 
 CorrespondenceAlgoInput --> Contains the preprocessed Genus-0 Input Meshes for which the pairwise correspondence is to be found.
 
