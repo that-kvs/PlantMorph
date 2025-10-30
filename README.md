@@ -10,3 +10,5 @@ CommonTriangulatedOut --> Contains the commonly triangulated meshes for each pai
 **SURFACE MAPS VIA ADAPTIVE TRIANGULATIONS**
 
 Refer this --> [https://github.com/patr-schm/surface-maps-via-adaptive-triangulations](https://github.com/patr-schm/surface-maps-via-adaptive-triangulations)
+
+---
