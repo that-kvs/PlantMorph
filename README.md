@@ -7,7 +7,7 @@ landmarks.zip --> Contains the vertex ids of the landmarks used in our experimen
 
 CommonTriangulatedOut --> Contains the commonly triangulated meshes for each pair of transitions as T_00 and T_01 in the output/coarse_to_file folder of each transition pair folder.
 
-**SURFACE MAPS VIA ADAPTIVE TRIANGULATIONS**
+For Correspondence Code Base (**SURFACE MAPS VIA ADAPTIVE TRIANGULATIONS**)
 
 Refer this --> [https://github.com/patr-schm/surface-maps-via-adaptive-triangulations](https://github.com/patr-schm/surface-maps-via-adaptive-triangulations)
 
