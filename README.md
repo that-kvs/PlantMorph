@@ -1,7 +1,11 @@
 **ASSET PREPROCESSING MODULE**
+
 The Input Assets was taken from our previous work - Towards Digital Twin of Crops for Growth Modelling using Virtual Reality @ https://dl.acm.org/doi/abs/10.1145/3595916.3626368
+
 Preprocessing involved removal of unwanted area, hole-filling, and genus-0 enforcement.
 The resulting preprocessed meshes (CorrespondenceAlgoInput) were used in the next step.
+
+---
 
 **CORRESPONDENCE FINDING MODULE**
 
