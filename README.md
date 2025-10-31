@@ -22,4 +22,5 @@ Refer this --> [https://github.com/patr-schm/surface-maps-via-adaptive-triangula
 
 ---
 
-**LINEAR INTERPOLATION MODULE**
+**INTERPOLATION MODULE**
+Will be updated soon
